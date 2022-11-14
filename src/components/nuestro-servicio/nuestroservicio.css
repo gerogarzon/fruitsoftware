@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+.divider{
+    width:320px;
+    height:1px;
+    background-color: #c9c9c9;
+}
+.title-styles{
+    color: #297373;
+    font-weight: 700;
+    font-size:40px;
+    line-height: 47px;
+    font-family: "Raleway", sans-serif !important;
+}
+.subtitle-styles{
+    color: #00cec3;
+    font-family: Montserrat,"Helvetica Neue",;
+    font-weight: 700;
+    font-size:20px;
+    line-height:24px;
+}
+.subtitle-styles-2{
+    color: #00cec3;
+    font-family: Montserrat,"Helvetica Neue",;
+    font-weight: 700;
+    font-size:20px;
+    line-height:24px;
+    letter-spacing:15px;
+}
+.text-styles{
+    color: #707070;
+    font-family: Montserrat,"Helvetica Neue",;
+    font-weight: 400;
+    line-height:20px;
+    font-size:17px;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+.card{
+    border: 1px solid #707070; 
+    margin:20px;
+    padding:10px;
+
+}
+.card-image{
+    object-fit: contain;
+}
+.funciones{
+    width: 100%;
+    background-image:url(../../assets/funciones.png)
+}

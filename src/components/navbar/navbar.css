@@ -1,0 +1,54 @@
+.navbar-container{
+    position:fixed;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+}
+.navbar-active{
+    position:fixed;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    background-color:#297373;
+    z-index: 10;
+}
+.logo-navbar{
+    max-width: 200px;
+    object-fit:contain;
+}
+.contacto{
+    max-width: 120px;
+}
+.contacto:hover{
+    color: #297373 !important;;
+}
+.banner{
+    height: 810px;
+    width: 100%; 
+    background-image: url(../../assets/Imagen\ Landing.png);
+    object-fit: cover;
+}
+.typewriter-container{
+    padding-top: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.typewriter-first{
+    text-align: center;
+    color: white;
+    font-size:70px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    animation: typing 4s steps(80, end) infinite alternate;
+}
+@keyframes typing {
+    0% { 
+        width: 0;    
+    }
+    100% { 
+        width: 100%;
+    }
+}
