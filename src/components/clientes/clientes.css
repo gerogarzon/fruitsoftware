@@ -1,4 +1,4 @@
-.subtitle-styles-2{
+.clientes-subtitle-styles{
     color: #00cec3;
     font-family: Montserrat,"Helvetica Neue",;
     font-weight: 700;
@@ -7,4 +7,40 @@
     letter-spacing:15px;
     margin:30px;
     padding:30px;
+}
+@media (max-width: 768px){
+    .clientes-subtitle-styles{
+        color: #00cec3;
+        font-family: Montserrat,"Helvetica Neue",;
+        font-weight: 700;
+        font-size:17px;
+        line-height:24px;
+        letter-spacing:5px;
+        margin:30px;
+        padding:30px;
+    }
+}
+.clientes-images{
+    max-width:400px;
+    max-height:200px;
+}
+@media  (max-width:400px) {
+    .clientes-images{
+        max-width:150px;
+        max-height:150px;
+    }   
+}
+.line-image{
+    max-width:1200px;
+    max-height:10px;
+}
+.carousel-text-light{
+    color: #707070;
+    font-size: 17px;
+    font-style: italic;
+}
+.carousel-text-bold{
+    color: #707070;
+    font-size: 17px;
+    font-weight: bold;
 }

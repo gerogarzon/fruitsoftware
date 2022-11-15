@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+.nuestrosdatos-bg{
+    background-image:url(../../assets/nuestrosdatos.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+.sobrenosotros-title-styles{
+    color: #00cec3;
+    font-family: Montserrat,"Helvetica Neue",;
+    font-style: bold;
+    font-size:20px;
+    line-height:24px;
+    letter-spacing: 15px;
+}
+@media (max-width: 768px) {
+    .sobrenosotros-title-styles{
+        color: #00cec3;
+        font-family: Montserrat,"Helvetica Neue",;
+        font-style: bold;
+        font-size:17px;
+        letter-spacing: 5px;
+    }
+    .sobrenosotros-subtitle-styles{
+        color:#297373;
+        font-family: Raleway;
+        font-weight: 700;
+        font-size:30px;
+        line-height:47px;
+    }
+}
+.sobrenosotros-subtitle-styles{
+    color:#297373;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size:40px;
+    line-height:47px;
+}
+.sobrenosotros-number-styles{
+    color: #F1D302;
+    font-size:91px;
+    font-weight: 700;
+    line-height:110px;
+}
+.sobrenosotros-text-styles{
+    font-family: Montserrat,"Helvetica Neue",; 
+    font-size:30px;
+    font-weight:400;
+    line-height:37px;
+    color:#ffffff;
+    
+}
+.sector{
+    background-image:url(../../assets/funciones.png);
+}
+.sector-image{
+    max-width:250px;
+    max-height:250px;
+}
+.elipse{
+    background-color: #ffffff;
+    width: 320px;
+    height:320px;
+    border-radius:320px;
+    border: 2px solid #707070;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.elipse:hover{
+    border: 2px solid #df8600;
+}
+.mercados{
+    font-weight: 700;
+    font-size:25px;
+    line-height:31px;
+    color:#297373;
+    max-width:276px;
+}
+.sobrenosotros{
+    background-image: url(../../assets/sobrenosotros.png);
+    background-size: 100vw 100%;
+    min-height:600px;
+}
+.subtitle_sobrenosotros{
+    color: #ffffff;
+    font-family: Raleway;
+    font-style: bold;
+    font-size:40px;
+}
+.text_sobrenosotros{
+    color: #ffffff;
+    font-style:normal;
+    font-size:17px;
+    font-weight: 400;
+    line-height:21px;
+
+
+}
+

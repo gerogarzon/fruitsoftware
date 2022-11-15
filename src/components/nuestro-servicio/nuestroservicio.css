@@ -28,6 +28,15 @@
     line-height:24px;
     letter-spacing:15px;
 }
+@media (max-width:768px){
+    .subtitle-styles-2{
+        color: #00cec3;
+        font-family: Montserrat,"Helvetica Neue",;
+        font-weight: 700;
+        font-size:17px;
+        letter-spacing: 8px;
+    }
+}
 .text-styles{
     color: #707070;
     font-family: Montserrat,"Helvetica Neue",;
@@ -43,13 +52,19 @@
     gap: 35px;
 }
 .card{
-    border: 1px solid #707070; 
+    border: 2px solid #707070; 
     margin:20px;
-    padding:10px;
-
+    padding:30px;
+    width:350px;
+    height:300px;
+}
+.card:hover{
+    border: 2px solid #df8600; 
 }
 .card-image{
     object-fit: contain;
+    width:fit-content;
+    height: fit-content;
 }
 .funciones{
     width: 100%;
