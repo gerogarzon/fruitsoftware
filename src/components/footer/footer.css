@@ -23,7 +23,7 @@
         rgba(75, 190, 123, 0.6), 
         rgba(76, 207, 131, 0.6)
       ),url(../../assets/col-green.png);
-      background-size: contain;
+      background-size: cover;
       display: flex;
       justify-content: center;
       align-items: center;
