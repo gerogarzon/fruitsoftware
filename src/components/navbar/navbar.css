@@ -51,11 +51,12 @@
     display:flex;
     justify-content: center;
     align-items: center;
-   
-    padding: 50px;
+    position: relative;
+    top:10vh;
+    padding:50px;
     text-align:center;
-    width:100vw;
-    min-height:500px;
+    width:100%;
+    min-height:410px;
 }
 .reel{
     width: 33px;
