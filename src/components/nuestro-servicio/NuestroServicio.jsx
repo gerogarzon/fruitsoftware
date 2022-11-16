@@ -46,7 +46,7 @@ const NuestroServicio = () => {
         <div className="d-flex justify-content-center">
           <div className="divider"></div>
         </div>
-        <h3 className="title-styles pt-5 mb-2">
+        <h3 className="title-styles pt-5 px-3 mb-2">
           Nosotros nos ocupamos de la tecnología
         </h3>
 

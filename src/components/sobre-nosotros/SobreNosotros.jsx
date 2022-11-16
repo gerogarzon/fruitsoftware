@@ -15,17 +15,16 @@ const SobreNosotros = () => {
         <div className="d-flex justify-content-center">
             <div className="divider"></div>
         </div>
-        <h3 className="subtitle_sobrenosotros p-5">Ayudar a los pequeños y grandes mercados<br></br> frutihortícolas a lograr una gestión eficaz mediante el <br></br> uso innovador dela tecnología.</h3>
-        <p className="text_sobrenosotros p-3">Creemos que el lápiz y el papel quedaron obsoletos en un mundo tan digitalizado, la organización y las plataformas<br></br>  integradas cambian las reglas del juego para nuestros clientes. Brindamos un sistema – software enfocado en optimizar y <br></br> agilizar las horas de trabajo y gestión de los mercados y puestos frutihortícolas mediante la tecnología.</p>
-        {/* <button className="btn btn-outline-warning contacto text-white">LEER MAS</button> */}
+        <h3 className="subtitle_sobrenosotros py-5 px-2">Ayudar a los pequeños y grandes mercados frutihortícolas a lograr una gestión eficaz mediante el uso innovador dela tecnología.</h3>
+        <h5 className="text_sobrenosotros p-3">Creemos que el lápiz y el papel quedaron obsoletos en un mundo tan digitalizado, la organización y las plataformas integradas cambian las reglas del juego para nuestros clientes. Brindamos un sistema – software enfocado en optimizar y agilizar las horas de trabajo y gestión de los mercados y puestos frutihortícolas mediante la tecnología.</h5>
       </div>
       
       <div className="container-fluid sector text-center p-5">
-        <h2 className="sobrenosotros-title-styles p-5">SECTOR EN EL QUE NOS ESPECIALIZAMOS</h2>
+        <h2 className="sobrenosotros-title-styles py-5 px-">SECTOR EN EL QUE NOS ESPECIALIZAMOS</h2>
         <div className="d-flex justify-content-center">
             <div className="divider"></div>
         </div>
-        <h3 className="sobrenosotros-subtitle-styles py-5">Lográ una ventaja competitiva en tu sector <br></br>con nuestro sistema</h3>
+        <h3 className="sobrenosotros-subtitle-styles py-5">Lográ una ventaja competitiva en tu sector con nuestro sistema</h3>
         <div className="row align-items-center justify-content-center">
             <div className="col-lg-4 p-0 d-flex flex-column justify-content-center align-items-center">
                <div className="elipse"><img src={mayorista} className="sector-image" alt="sector-mayorista"/></div> 
@@ -39,11 +38,11 @@ const SobreNosotros = () => {
       </div>
 
       <div className="container-fluid nuestrosdatos-bg text-center ">
-        <h2 className="sobrenosotros-title-styles p-5">ALGUNOS DE NUESTROS DATOS</h2>
+        <h2 className="sobrenosotros-title-styles py-5 px-2">ALGUNOS DE NUESTROS DATOS</h2>
         <div className="d-flex justify-content-center">
             <div className="divider "></div>
         </div>
-        <div className="row p-5">
+        <div className="row px-5">
           <div className="col-lg-3 col-xs-12 p-3">
             <div className="row sobrenosotros-number-styles d-flex justify-content-center align-content-center">
               2
