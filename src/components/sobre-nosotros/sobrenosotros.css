@@ -10,7 +10,7 @@
 }
 .sobrenosotros-title-styles{
     color: #00cec3;
-    font-family: Montserrat,"Helvetica Neue",;
+    font-family: 'Montserrat', sans-serif;
     font-style: bold;
     font-size:20px;
     line-height:24px;
@@ -18,7 +18,7 @@
 }
 .sobrenosotros-subtitle-styles{
     color:#297373;
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size:30px;
     line-height:47px;
@@ -30,7 +30,7 @@
     line-height:110px;
 }
 .sobrenosotros-text-styles{
-    font-family: Montserrat,"Helvetica Neue",; 
+    font-family: 'Montserrat', sans-serif; 
     font-size:25px;
     font-weight:400;
     line-height:37px;
@@ -73,7 +73,7 @@
 }
 .subtitle_sobrenosotros{
     color: #ffffff;
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-style: bold;
     font-size:30px;
 }
@@ -86,14 +86,14 @@
 @media (max-width: 768px) {
     .sobrenosotros-title-styles{
         color: #00cec3;
-        font-family: Montserrat,"Helvetica Neue",;
+        font-family: 'Montserrat', sans-serif;
         font-style: bold;
         font-size:25px;
         letter-spacing: 0px;
     }
     .sobrenosotros-subtitle-styles{
         color:#297373;
-        font-family: Raleway;
+        font-family: 'Raleway', sans-serif;
         font-weight: 700;
         font-size:27px;
         line-height:35px;
@@ -103,7 +103,7 @@
     }
     .subtitle_sobrenosotros{
         color: #ffffff;
-        font-family: Raleway;
+        font-family: 'Raleway', sans-serif;
         font-style: bold;
         font-size:20px;
     }
