@@ -107,6 +107,13 @@
 .vermas:hover{
     color:#297373;
 }
+.gero{
+    text-decoration: none;
+    color: #ffffff;
+}
+.gero:hover{
+    color:#f1d302;
+}
 @media (max-width: 768px) {
     .logo-block{
         display:none!important;

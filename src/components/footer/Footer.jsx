@@ -75,7 +75,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="row justify-content-center align-content-center text-center m-0 copyright">
-          <div className="col p-3">© Copyright 2022 Fruit Software, Sistema de gestión para el mercado frutihortícola. Todos los derechos reservados. Políticas de Privacidad</div>
+          <div className="col p-3">© Copyright 2022 Fruit Software, Sistema de gestión para el mercado frutihortícola. Todos los derechos reservados. Políticas de Privacidad. Developed by <a className="gero" href="https://www.linkedin.com/in/geronimo-garzon/">Geronimo Garzon.</a></div>
         </div>
       </div>
     </div>

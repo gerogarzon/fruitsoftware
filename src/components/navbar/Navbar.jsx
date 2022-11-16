@@ -24,7 +24,7 @@ const Navbar = () => {
   return (
     <>
       <div className={navbar ? "navbar-active" : "navbar-container"}>
-        <nav className="navbar navbar-dark navbar-expand-lg p-4">
+        <nav className="navbar navbar-dark navbar-expand-lg px-4">
           <div className="container-fluid p-0">
             <a className="navbar-brand text-white m-0 py-2 mx-4 " href="/">
               <img className="logo-navbar" src={logo} alt="logo" />
