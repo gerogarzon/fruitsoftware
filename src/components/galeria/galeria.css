@@ -1,5 +1,7 @@
 .galeria{
     min-height: 400px;
+    background-image: url(../../assets/funciones.png);
+    background-size:cover;
 
 }
 .galeria-images{
