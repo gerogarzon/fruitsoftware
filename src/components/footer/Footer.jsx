@@ -31,7 +31,7 @@ const Footer = () => {
               </div>
               <div className="col">
                 <button className="btn btn-outline-warning contacto text-white">
-                  VER MAS
+                   <a className="vermas" href="#nuestroservicio">VER MAS</a>
                 </button>
               </div>
             </div>
@@ -43,7 +43,7 @@ const Footer = () => {
               </div>
               <div className="col">
                 <button className="btn btn-outline-warning contacto text-white">
-                  VER MAS
+                  <a className="vermas" href="#galeria">VER MAS</a>
                 </button>
               </div>
             </div>
