@@ -16,7 +16,7 @@ const NuestroServicio = () => {
       <div className="px-5">
       <h2 className="title-styles pt-5">Nuestro Servicio</h2>
       <h3 className="subtitle-styles pt-2">Desde 2019 hasta hoy</h3>
-      <p className="text-styles pt-2 mx-5">
+      <p className="text-styles pt-2 ">
         Somos Fruit Software™ y tenemos como misión brindar un sistema –
         software de gestión, moderno y fácil de usar, hecho a medida para el
         mercado mayorista y minorista frutihortícola. Este sistema cuenta con
@@ -31,7 +31,7 @@ const NuestroServicio = () => {
       <h3 className="subtitle-styles pt-2">
         Software moderno y sencillo de usar
       </h3>
-      <p className="text-styles pt-2 mx-5">
+      <p className="text-styles pt-2">
         Siendo tecnología de última generación, Fruit Software™ logra de manera
         rápida y eficaz la gestión de tu negocio desde cualquier lugar y desde
         cualquier dispositivo conectado a la red. Podrás cargar pedidos,

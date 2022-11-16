@@ -62,9 +62,10 @@ const Navbar = () => {
                   type="button"
                   className="btn btn-outline-warning contacto"
                   style={{ color: "white" }}
-                  href="#contacto"
                 >
+                   <a className="nav-link text-white p-0 m-0 contacto" href="#contacto">
                   CONTACTO
+                </a>
                 </button>
               </div>
             </div>

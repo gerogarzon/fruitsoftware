@@ -4,10 +4,8 @@
         rgba(41, 115, 115, 0.8)
       ),url(../../assets/particles.png); 
       background-size: cover;
-      background-position: center center;
-      
+      background-position: center center;    
 }
-
 .footer-titles{
     margin-top: 50px;
     margin-bottom: 50px;
@@ -64,7 +62,6 @@
     border-bottom: 1px solid #fff;
     width:50%;
 }
-
 .footer-subtitles{
     font-size:15px;
     font-style:normal;
@@ -72,6 +69,14 @@
     color: #ffffff;
     text-decoration: none;
     margin: 10px 0px;   
+}
+.footer-subtitles-2{
+    font-size:15px;
+    font-style:normal;
+    line-height:18px;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 10px 0px;    
 }
 .span{
     font-weight: bold;
@@ -82,17 +87,38 @@
 .footer-btn{
     max-width:50px;
     max-height:50px;
+    border-radius: 50px;
     padding: 0;
+}
+.footer-btn:hover{
+    scale:1.1;
 }
 .icons{
     max-width: 48px;
     max-height: 48px;
 }
+.copyright{
+    border-top: 1px solid #ffffff;
+}
 @media (max-width: 768px) {
     .logo-block{
         display:none!important;
     }
-}
-.copyright{
-    border-top: 1px solid #ffffff;
+    .footer{
+       text-align:center;
+    }
+    .footer-titles-2{
+       width: 100%;
+       padding-top:10px;
+       border-top: 1px solid #fff;
+    }
+    .responsive-icons{
+        display:flex;
+        flex-direction:row;
+        justify-content: center!important;
+        align-items: center; 
+    } 
+    .copyright{
+        font-size:13px;
+    }
 }

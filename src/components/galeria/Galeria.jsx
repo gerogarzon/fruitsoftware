@@ -7,10 +7,16 @@ import puesteros3 from "../../assets/puesteros3.jpg";
 
 const Galeria = () => {
   return (
-    <div id="galeria" className="container-fluid p-2 galeria">
+    <div id="galeria" className="container-fluid p-2 galeria text-center">
+        <div className="clientes-subtitle-styles m-0">
+       MIRA NUESTRA GALERIA
+      </div>
+      <div className="d-flex justify-content-center">
+        <div className="divider"></div>
+      </div>
       <div
         id="carouselExampleIndicators"
-        className="carousel slide  carousel-dark p-5 my-1 "
+        className="carousel slide  carousel-dark p-5 my-1"
         data-bs-ride="true"
       >
         <div className="carousel-indicators">
