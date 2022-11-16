@@ -87,4 +87,18 @@
         width: 90px !important;
         height:90px !important;
     }
+    .subtitle-styles{
+        color: #00cec3;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size:17px;
+        line-height:5px;
+    }
+    .text-styles{
+        color: #707070;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        line-height:20px;
+        font-size:15px;
+    }
 }
