@@ -28,15 +28,6 @@
     line-height:24px;
     letter-spacing:15px;
 }
-@media (max-width:768px){
-    .subtitle-styles-2{
-        color: #00cec3;
-        font-family: Montserrat,"Helvetica Neue",;
-        font-weight: 700;
-        font-size:17px;
-        letter-spacing: 8px;
-    }
-}
 .text-styles{
     color: #707070;
     font-family: Montserrat,"Helvetica Neue",;
@@ -71,4 +62,31 @@
     background-image:url(../../assets/funciones.png);
     background-size: cover;
     background-position: center center;
+}
+@media (max-width:768px){
+    .subtitle-styles-2{
+        color: #00cec3;
+        font-family: Montserrat,"Helvetica Neue",;
+        font-weight: 700;
+        font-size:17px;
+        letter-spacing: 8px;
+    }
+    .title-styles{
+        color: #297373;
+        font-weight: 700;
+        font-size:30px;
+        line-height: 30px;
+        font-family: "Raleway", sans-serif !important;
+    }
+    .card{
+        border:2px solid #707070; 
+        margin:10px;
+        padding:30px 10px;
+        width:300px;
+        height:270px;
+    }
+    .card-image{
+        width: 90px !important;
+        height:90px !important;
+    }
 }
