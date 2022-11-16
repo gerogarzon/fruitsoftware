@@ -99,7 +99,7 @@
         line-height:35px;
     }
     .sobrenosotros{
-        background-size: contain;
+        background-size: fill; 
     }
     .subtitle_sobrenosotros{
         color: #ffffff;
