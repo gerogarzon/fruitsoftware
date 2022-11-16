@@ -3,12 +3,27 @@
 }
 .flotante{
     display: inline-block;
-    min-width: 45px;
-    min-height: 45px;
-    border-radius:45px;
+    min-width: 55px;
+    min-height: 55px;
+    border-radius:55px;
     position: fixed;
     bottom: 15px;
     right: 15px;
     color: red;
     text-decoration: none;
+    animation: flotante 1s infinite alternate;
+}
+@keyframes flotante {
+    0%{
+        transform: scale(1);   
+    }
+    25%{
+        rotate: -5deg; 
+    }
+    50%{
+        rotate: 5deg;
+    }
+    100%{
+        transform: scale(1.1);    
+    }
 }

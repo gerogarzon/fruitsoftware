@@ -1,0 +1,9 @@
+.galeria{
+    min-height: 400px;
+
+}
+.galeria-images{
+    width:450px;
+    height:350px;
+    object-fit: fill;
+}

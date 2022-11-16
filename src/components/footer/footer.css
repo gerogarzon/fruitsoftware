@@ -1,8 +1,11 @@
 .bg-particles{
     background-image:linear-gradient(
-        rgba(41, 115, 115, 0.6), 
-        rgba(41, 115, 115, 0.6)
-      ),url(../../assets/particles.png);
+        rgba(41, 115, 115, 0.8), 
+        rgba(41, 115, 115, 0.8)
+      ),url(../../assets/particles.png); 
+      background-size: cover;
+      background-position: center center;
+      
 }
 
 .footer-titles{
@@ -20,10 +23,10 @@
 }
 .green-col{
     background-image: linear-gradient(
-        rgba(75, 190, 123, 0.6), 
-        rgba(76, 207, 131, 0.6)
+        rgba(75, 190, 123, 0.7), 
+        rgba(76, 207, 131, 0.7)
       ),url(../../assets/col-green.png);
-      background-size: cover;
+      background-size: fill;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -61,6 +64,7 @@
     border-bottom: 1px solid #fff;
     width:50%;
 }
+
 .footer-subtitles{
     font-size:15px;
     font-style:normal;
@@ -73,7 +77,7 @@
     font-weight: bold;
 }
 .footer-subtitles:hover{
-    color: #df8600;
+    color: #f1d302;
 }
 .footer-btn{
     max-width:50px;
@@ -88,4 +92,7 @@
     .logo-block{
         display:none!important;
     }
+}
+.copyright{
+    border-top: 1px solid #ffffff;
 }

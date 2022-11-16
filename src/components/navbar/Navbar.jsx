@@ -62,6 +62,7 @@ const Navbar = () => {
                   type="button"
                   className="btn btn-outline-warning contacto"
                   style={{ color: "white" }}
+                  href="#contacto"
                 >
                   CONTACTO
                 </button>

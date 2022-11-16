@@ -60,11 +60,11 @@ const SobreNosotros = () => {
         <div className="row align-items-center justify-content-center">
             <div className="col-lg-4 p-0 d-flex flex-column justify-content-center align-items-center">
                <div className="elipse"><img src={mayorista} className="sector-image" alt="sector-mayorista"/></div> 
-                <h4 className="mercados my-4">Mercados Mayoristas Frutihortícolas</h4>
+               <h4 className="mercados my-4">Mercados Mayoristas Frutihortícolas</h4>
             </div>
             <div className="col-lg-4 p-0 d-flex flex-column justify-content-center align-items-center">
                <div className="elipse"><img src={minorista} className="sector-image"alt="sector-minorista"/></div> 
-                <h4 className="mercados my-4">Mercados Minoristas Frutihortícolas</h4>
+               <h4 className="mercados my-4">Mercados Minoristas Frutihortícolas</h4>
             </div>
         </div>
       </div>
@@ -73,8 +73,8 @@ const SobreNosotros = () => {
         <div className="d-flex justify-content-center">
             <div className="divider"></div>
         </div>
-        <h3 className="subtitle_sobrenosotros p-5">Ayudar a los pequeños y grandes mercados<br></br> frutihortícolasa lograr una gestión eficaz mediante el <br></br> uso innovador dela tecnología.</h3>
-        <p className="text_sobrenosotros p-5">Creemos que el lápiz y el papel quedaron obsoletos en un mundo tan digitalizado, la organización y las plataformas<br></br>  integradas cambian las reglas del juego para nuestros clientes. Brindamos un sistema – software enfocado en optimizar y <br></br> agilizar las horas de trabajo y gestión de los mercados y puestos frutihortícolas mediante la tecnología.</p>
+        <h3 className="subtitle_sobrenosotros p-5">Ayudar a los pequeños y grandes mercados<br></br> frutihortícolas a lograr una gestión eficaz mediante el <br></br> uso innovador dela tecnología.</h3>
+        <p className="text_sobrenosotros p-3">Creemos que el lápiz y el papel quedaron obsoletos en un mundo tan digitalizado, la organización y las plataformas<br></br>  integradas cambian las reglas del juego para nuestros clientes. Brindamos un sistema – software enfocado en optimizar y <br></br> agilizar las horas de trabajo y gestión de los mercados y puestos frutihortícolas mediante la tecnología.</p>
         <button className="btn btn-outline-warning contacto text-white">LEER MAS</button>
       </div>
     </div>

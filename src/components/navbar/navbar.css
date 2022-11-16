@@ -20,6 +20,9 @@
     max-width: 200px;
     object-fit:contain;
 }
+.nav-link:hover{
+    color: #f1d302!important;
+}
 @media (max-width:415px){
     .navbar-container{
         position: relative;

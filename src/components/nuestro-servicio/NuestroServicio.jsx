@@ -50,7 +50,7 @@ const NuestroServicio = () => {
         Nosotros nos ocupamos de la tecnología
       </h3>
 
-    <div className="row gx-5 align-items-center justify-content-center">
+    <div className="row align-items-center justify-content-center">
 
     
       <div className="col-md-3 col-sm-10 card d-flex justify-content-center align-items-center">

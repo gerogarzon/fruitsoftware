@@ -50,8 +50,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className=" container-fluid p-5 m-0 footer text-white">
-        <div className="row justify-content-center align-content-center">
+      <div className=" container-fluid px-5 pt-5 m-0 footer text-white">
+        <div className="row pb-3 justify-content-center align-content-center">
           <div className="col-md-4 col-xs-12 p-0 py-2 d-flex flex-column justify-content-start align-content-center logo-block">
             <img src={logo} alt="logo" className="logo-vertical align-self-center" />
           </div>
@@ -63,7 +63,7 @@ const Footer = () => {
             <a className="footer-subtitles" href="#galeria">GALERIA</a>
           </div>
           <div className="col-md-4 col-xs-12 p-0 d-flex flex-column justify-content-start align-content-start">
-              <h4 className="footer-titles-2">Contacto</h4>
+              <h4 className="footer-titles-2">CONTACTO</h4>
               <h5 className="footer-subtitles">Teléfono: <span className="span px-2">+54 9 381 506-5129</span></h5>
               <h5 className="footer-subtitles">Email: <span className="span px-2">info@fruitsoftware.com.ar</span></h5>
               <div className="row py-2 justify-content-start align-content-center m-0">
@@ -72,8 +72,10 @@ const Footer = () => {
                 <button type="button" className="footer-btn btn col p-0 me-3 d-flex justify-content-center align-content-center"><img className="d-flex justify-content-center align-content-center icons" src={face} alt="facebook-logo"/></button>
                 <button type="button" className="footer-btn btn col p-0 me-3 d-flex justify-content-center align-content-center"><img className="d-flex justify-content-center align-content-center icons" src={insta} alt="instagram-logo"/></button>
               </div>
-
           </div>
+        </div>
+        <div className="row justify-content-center align-content-center text-center m-0 copyright">
+          <div className="col p-3">© Copyright 2022 Fruit Software, Sistema de gestión para el mercado frutihortícola. Todos los derechos reservados. Políticas de Privacidad</div>
         </div>
       </div>
     </div>
