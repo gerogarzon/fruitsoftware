@@ -1,4 +1,6 @@
 import React from "react";
+import VisibilitySensor from "react-visibility-sensor";
+import CountUp from "react-countup";
 
 import "./sobrenosotros.css";
 
@@ -6,6 +8,9 @@ import mayorista from '../../assets/mayorista.png';
 import minorista from '../../assets/minorista.png';
 
 const SobreNosotros = () => {
+
+  const [focus, setFocus] = React.useState(false);
+
 
   return (
     <div id="sobrenosotros">
@@ -45,7 +50,25 @@ const SobreNosotros = () => {
         <div className="row px-5 pb-3">
           <div className="col-lg-3 col-xs-12 p-3">
             <div className="row sobrenosotros-number-styles d-flex justify-content-center align-content-center">
-              2
+            <CountUp
+                
+                start={focus ? 0 : null}
+                end={2}
+                duration={2}
+                z
+              >
+                {({ countUpRef }) => (
+                  <VisibilitySensor
+                    onChange={(isVisible) => {
+                      if (isVisible) {
+                        setFocus(true);
+                      }
+                    }}
+                  >
+                    <h1 ref={countUpRef} className="sobrenosotros-number-styles" />
+                  </VisibilitySensor>
+                )}
+              </CountUp> 
             </div>
             <div className="row sobrenosotros-text-styles d-flex justify-content-center align-content-center">
               Años desde <br></br>  nuestra fundación
@@ -53,7 +76,25 @@ const SobreNosotros = () => {
           </div>
           <div className="col-lg-3 col-xs-12 p-3">
             <div className="row sobrenosotros-number-styles d-flex justify-content-center align-content-center">
-              27
+            <CountUp
+                
+                start={focus ? 0 : null}
+                end={27}
+                duration={2}
+                z
+              >
+                {({ countUpRef }) => (
+                  <VisibilitySensor
+                    onChange={(isVisible) => {
+                      if (isVisible) {
+                        setFocus(true);
+                      }
+                    }}
+                  >
+                    <h1 ref={countUpRef} className="sobrenosotros-number-styles" />
+                  </VisibilitySensor>
+                )}
+              </CountUp> 
             </div>
             <div className="row sobrenosotros-text-styles d-flex justify-content-center align-content-center">
               Clientes hasta  <br></br> la fecha
@@ -61,7 +102,25 @@ const SobreNosotros = () => {
           </div>
           <div className="col-lg-3 col-xs-12 p-3">
             <div className="row sobrenosotros-number-styles d-flex justify-content-center align-content-center">
-              105
+            <CountUp
+                
+                start={focus ? 0 : null}
+                end={105}
+                duration={2}
+                z
+              >
+                {({ countUpRef }) => (
+                  <VisibilitySensor
+                    onChange={(isVisible) => {
+                      if (isVisible) {
+                        setFocus(true);
+                      }
+                    }}
+                  >
+                    <h1 ref={countUpRef} className="sobrenosotros-number-styles" />
+                  </VisibilitySensor>
+                )}
+              </CountUp> 
             </div>
             <div className="row sobrenosotros-text-styles d-flex justify-content-center align-content-center">
               Puestos utilizando <br></br> nuestro sistema
@@ -69,7 +128,25 @@ const SobreNosotros = () => {
           </div>
           <div className="col-lg-3 col-xs-12 p-3">
             <div className="row sobrenosotros-number-styles d-flex justify-content-center align-content-center">
-              30,251
+            <CountUp
+                
+                start={focus ? 0 : null}
+                end={30251}
+                duration={2}
+                z
+              >
+                {({ countUpRef }) => (
+                  <VisibilitySensor
+                    onChange={(isVisible) => {
+                      if (isVisible) {
+                        setFocus(true);
+                      }
+                    }}
+                  >
+                    <h1 ref={countUpRef} className="sobrenosotros-number-styles" />
+                  </VisibilitySensor>
+                )}
+              </CountUp> 
             </div>
             <div className="row sobrenosotros-text-styles d-flex justify-content-center align-content-center">
               Tazas de café<br></br> tomadas :)
