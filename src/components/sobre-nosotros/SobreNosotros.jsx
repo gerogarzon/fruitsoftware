@@ -11,7 +11,7 @@ const SobreNosotros = () => {
     <div id="sobrenosotros">
 
        <div className="container-fluid text-center sobrenosotros">
-        <h2 className="sobrenosotros-title-styles  pb-3">SOBRE NOSOTROS</h2>
+        <h2 className="sobrenosotros-title-styles pb-4">SOBRE NOSOTROS</h2>
         <div className="d-flex justify-content-center">
             <div className="divider"></div>
         </div>
@@ -25,7 +25,7 @@ const SobreNosotros = () => {
         <div className="d-flex justify-content-center">
             <div className="divider"></div>
         </div>
-        <h3 className="sobrenosotros-subtitle-styles py-5">Lográ una ventaja competitiva en tu sector con nuestro sistema</h3>
+        <h3 className="sobrenosotros-subtitle-styles py-5">Lográ una ventaja competitiva en tu sector <br></br>con nuestro sistema</h3>
         <div className="row align-items-center justify-content-center">
             <div className="col-lg-4 p-0 d-flex flex-column justify-content-center align-items-center">
                <div className="elipse"><img src={mayorista} className="sector-image" alt="sector-mayorista"/></div> 
