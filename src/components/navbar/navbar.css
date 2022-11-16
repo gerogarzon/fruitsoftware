@@ -32,10 +32,6 @@
         justify-content: center;
         z-index:10;
     }
-    .logo-navbar{
-        max-width: 190px;
-        object-fit:contain;
-    }
 }
 .contacto{
     max-width: 120px;

@@ -136,8 +136,6 @@
         background-image:url(../../assets/nuestrosdatos.png);
         background-position: center;
         background-size: cover;
-        position: relative;
-        height: 100%;
-        width: 100%;
+        background-attachment: none!important;
     }
 }
