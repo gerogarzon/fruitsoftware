@@ -10,7 +10,7 @@ import "./footer.css";
 const Footer = () => {
   return (
     <div id="contacto" className="container-fluid p-0">
-      <div className="row bg-particles text-center">
+      <div className="row bg-particles text-center px-1 m-0">
         <div className="footer-titles">
           <h4 className="footer-title-styles px-2">
             Comenzá a transformar tu negocio para una mayor productividad.

@@ -34,8 +34,7 @@
     font-size:25px;
     font-weight:400;
     line-height:37px;
-    color:#ffffff;
-    
+    color:#ffffff; 
 }
 .sector{
     background-image:url(../../assets/funciones.png);
@@ -127,5 +126,11 @@
     .sector-image{
         max-width:190px;
         max-height:190px;
+    }
+    .sobrenosotros-number-styles{
+        color: #F1D302;
+        font-size:60px;
+        font-weight: 700;
+        line-height:110px;
     }
 }

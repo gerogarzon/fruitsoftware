@@ -42,7 +42,7 @@ const SobreNosotros = () => {
         <div className="d-flex justify-content-center">
             <div className="divider "></div>
         </div>
-        <div className="row px-5">
+        <div className="row px-5 pb-3">
           <div className="col-lg-3 col-xs-12 p-3">
             <div className="row sobrenosotros-number-styles d-flex justify-content-center align-content-center">
               2
