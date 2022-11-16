@@ -6,7 +6,6 @@
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-   
 }
 .sobrenosotros-title-styles{
     color: #00cec3;
@@ -132,5 +131,13 @@
         font-size:60px;
         font-weight: 700;
         line-height:110px;
+    }
+    .nuestrosdatos-bg{
+        background-image:url(../../assets/nuestrosdatos.png);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        height: 100%;
+        width: 100%;
     }
 }

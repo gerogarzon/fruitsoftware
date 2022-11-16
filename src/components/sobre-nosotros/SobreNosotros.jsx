@@ -50,8 +50,7 @@ const SobreNosotros = () => {
         <div className="row px-5 pb-3">
           <div className="col-lg-3 col-xs-12 p-3">
             <div className="row sobrenosotros-number-styles d-flex justify-content-center align-content-center">
-            <CountUp
-                
+            <CountUp      
                 start={focus ? 0 : null}
                 end={2}
                 duration={2}
@@ -65,7 +64,7 @@ const SobreNosotros = () => {
                       }
                     }}
                   >
-                    <h1 ref={countUpRef} className="sobrenosotros-number-styles" />
+                    <h1 ref={countUpRef} className="sobrenosotros-number-styles">2</h1>
                   </VisibilitySensor>
                 )}
               </CountUp> 
@@ -77,7 +76,6 @@ const SobreNosotros = () => {
           <div className="col-lg-3 col-xs-12 p-3">
             <div className="row sobrenosotros-number-styles d-flex justify-content-center align-content-center">
             <CountUp
-                
                 start={focus ? 0 : null}
                 end={27}
                 duration={2}
@@ -91,7 +89,7 @@ const SobreNosotros = () => {
                       }
                     }}
                   >
-                    <h1 ref={countUpRef} className="sobrenosotros-number-styles" />
+                    <h1 ref={countUpRef} className="sobrenosotros-number-styles" >27</h1>
                   </VisibilitySensor>
                 )}
               </CountUp> 
@@ -102,8 +100,7 @@ const SobreNosotros = () => {
           </div>
           <div className="col-lg-3 col-xs-12 p-3">
             <div className="row sobrenosotros-number-styles d-flex justify-content-center align-content-center">
-            <CountUp
-                
+            <CountUp    
                 start={focus ? 0 : null}
                 end={105}
                 duration={2}
@@ -117,7 +114,7 @@ const SobreNosotros = () => {
                       }
                     }}
                   >
-                    <h1 ref={countUpRef} className="sobrenosotros-number-styles" />
+                     <h1 ref={countUpRef} className="sobrenosotros-number-styles">105</h1>
                   </VisibilitySensor>
                 )}
               </CountUp> 
@@ -128,8 +125,7 @@ const SobreNosotros = () => {
           </div>
           <div className="col-lg-3 col-xs-12 p-3">
             <div className="row sobrenosotros-number-styles d-flex justify-content-center align-content-center">
-            <CountUp
-                
+            <CountUp   
                 start={focus ? 0 : null}
                 end={30251}
                 duration={2}
@@ -143,7 +139,7 @@ const SobreNosotros = () => {
                       }
                     }}
                   >
-                    <h1 ref={countUpRef} className="sobrenosotros-number-styles" />
+                     <h1 ref={countUpRef} className="sobrenosotros-number-styles">30251</h1>
                   </VisibilitySensor>
                 )}
               </CountUp> 
