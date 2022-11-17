@@ -94,7 +94,7 @@ const Navbar = () => {
           </div>
         <div className="row align-content-center justify-content-center my-5 py-5 ">
           <div className="col d-flex justify-content-center">
-              <button className="btn btn-outline-warning contacto text-white m-3"><a className="vermas" href="#nuestroservicio">VER MAS</a></button>
+              {/* <button className="btn btn-outline-warning contacto text-white m-3"><a className="vermas" href="#nuestroservicio">VER MAS</a></button> */}
               <button className="btn m-2"><img src={reel} className="reel mx-1" alt="reel"/><span className="text-white">VER NUESTRO REEL</span></button>
            </div>
            </div>

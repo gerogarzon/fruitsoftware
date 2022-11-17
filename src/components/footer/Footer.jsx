@@ -23,29 +23,29 @@ const Footer = () => {
       <div>
         <div className="row">
           <div className="col green-col p-5">
-            <div className="row align-items-center">
+            <div className="row w-100 h-100 align-items-center">
               <div className="col">
-                <h5 className="text-white">
-                  Revolucioná tu negocio conFruit Software™ <br></br> Desde hoy!
+                <h5 className="text-white text-center">
+                  Revolucioná tu negocio con Fruit Software™ <br></br>Desde hoy!
                 </h5>
               </div>
-              <div className="col">
+              {/* <div className="col">
                 <button className="btn btn-outline-warning contacto text-white">
                    <a className="vermas" href="#nuestroservicio">VER MAS</a>
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="col red-col p-5">
-            <div className="row align-items-center">
+            <div className="row w-100 h-100 align-items-center justify-content-center">
               <div className="col">
-                <h5 className="text-white">Mirá nuestra galería de fotos.</h5>
+                <h5 className="text-white text-center">Mirá nuestra galería de fotos.</h5>
               </div>
-              <div className="col">
+              {/* <div className="col">
                 <button className="btn btn-outline-warning contacto text-white">
                   <a className="vermas" href="#galeria">VER MAS</a>
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

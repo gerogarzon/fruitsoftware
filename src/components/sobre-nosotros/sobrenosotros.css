@@ -74,12 +74,14 @@
     color: #ffffff;
     font-family: 'Raleway', sans-serif;
     font-style: bold;
-    font-size:30px;
+    font-size:25px;
+    line-height: 30px;
 }
 .text_sobrenosotros{
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     font-size:17px;
-    font-weight: 400;
+    font-weight: normal;
     line-height:21px;
 }
 @media (max-width: 768px) {
@@ -105,11 +107,13 @@
         font-family: 'Raleway', sans-serif;
         font-style: bold;
         font-size:20px;
+        line-height: 25px;
     }
     .text_sobrenosotros{
+        font-family: 'Montserrat', sans-serif;
         color: #ffffff;
         font-size:15px;
-        font-weight: 500;
+        font-weight: normal;
         line-height:15px;
     }
     .elipse{

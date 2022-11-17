@@ -59,8 +59,8 @@ const NuestroServicio = () => {
               alt="digitabilidad"
             />
             <div className="card-body flex-grow-1">
-              <div className="subtitle-styles p-1">Digitalidad</div>
-              <p className="card-text text-styles p-2">
+              <div className="subtitle-styles p-0">Digitalidad</div>
+              <p className="card-text text-styles py-1">
                 Integrá la tecnología para crear nuevas experiencias en relación
                 al mercado
               </p>
@@ -75,8 +75,8 @@ const NuestroServicio = () => {
               alt="portabilidad"
             />
             <div className="card-body flex-grow-1">
-              <div className="subtitle-styles p-1">Portabilidad</div>
-              <p className="card-text text-styles p-2">
+              <div className="subtitle-styles p-0">Portabilidad</div>
+              <p className="card-text text-styles py-1">
                 Ingresá desde cualquier lugar. El sistema es compatible y
                 adaptable a todos los dispositivos de hoy en día
               </p>
@@ -92,7 +92,7 @@ const NuestroServicio = () => {
             />
             <div className="card-body flex-grow-1">
               <div className="subtitle-styles p-0">Gestión en Tiempo Real</div>
-              <p className="card-text text-styles p-2">
+              <p className="card-text text-styles py-1">
                 Total libertad del usuario de gestionar en tiempo real pedidos y
                 compras, contorlar stock, revisar saldos, etc.
               </p>
@@ -109,8 +109,8 @@ const NuestroServicio = () => {
               alt="gestion"
             />
             <div className="card-body flex-grow-1">
-              <div className="subtitle-styles p-1">Personalización</div>
-              <p className="card-text text-styles">
+              <div className="subtitle-styles p-0">Personalización</div>
+              <p className="card-text text-styles py-1">
                 Personalizá la app para que tenga tu propia marca y así añadir
                 valor a tu negocio
               </p>
@@ -125,8 +125,8 @@ const NuestroServicio = () => {
               alt="gestion"
             />
             <div className="card-body flex-grow-1">
-              <div className="subtitle-styles p-1">Seguridad y Fiabilidad</div>
-              <p className="card-text text-styles p-2">
+              <div className="subtitle-styles p-0">Seguridad y Fiabilidad</div>
+              <p className="card-text text-styles py-1">
                 Tus datos y operaciones se registran en la base de datos del
                 software de manera privada y segura
               </p>
@@ -141,8 +141,8 @@ const NuestroServicio = () => {
               alt="gestion"
             />
             <div className="card-body flex-grow-1">
-              <div className="subtitle-styles p-1">Optimización</div>
-              <p className="card-text text-styles p-2">
+              <div className="subtitle-styles p-0">Optimización</div>
+              <p className="card-text text-styles py-1">
                 Optimizá recursos humanos, trabajo y tu tiempo
               </p>
             </div>
