@@ -22,8 +22,8 @@ const Footer = () => {
       </div>
       <div>
         <div className="row">
-          <div className="col green-col p-5">
-            <div className="row w-100 h-100 align-items-center">
+          <div className="col green-col py-5">
+            <div className="row w-100 h-100 align-items-start justify-content-center">
               <div className="col">
                 <h5 className="text-white text-center">
                   Revolucioná tu negocio con Fruit Software™ <br></br>Desde hoy!
@@ -36,8 +36,8 @@ const Footer = () => {
               </div> */}
             </div>
           </div>
-          <div className="col red-col p-5">
-            <div className="row w-100 h-100 align-items-center justify-content-center">
+          <div className="col red-col py-5">
+            <div className="row w-100 h-100 align-items-start justify-content-center">
               <div className="col">
                 <h5 className="text-white text-center">Mirá nuestra galería de fotos.</h5>
               </div>
