@@ -23,7 +23,7 @@
 .nav-link:hover{
     color: #f1d302!important;
 }
-@media (max-width:415px){
+@media (max-width:991px){
     .navbar-container{
         position: relative;
         background-color:#0F5959;
@@ -44,7 +44,8 @@
     max-height: 810px;
     width: 100%; 
     background-image: url(../../assets/Imagen\ Landing.png);
-   
+    background-size: cover;
+    background-position: center center;
 }
 .type{
     display:flex;
