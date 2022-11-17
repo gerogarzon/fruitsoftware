@@ -91,7 +91,7 @@ const NuestroServicio = () => {
               alt="gestion"
             />
             <div className="card-body flex-grow-1">
-              <div className="subtitle-styles p-1">Gestión en Tiempo Real</div>
+              <div className="subtitle-styles p-0">Gestión en Tiempo Real</div>
               <p className="card-text text-styles p-2">
                 Total libertad del usuario de gestionar en tiempo real pedidos y
                 compras, contorlar stock, revisar saldos, etc.
