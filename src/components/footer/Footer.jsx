@@ -10,16 +10,7 @@ import "./footer.css";
 const Footer = () => {
   return (
     <div id="contacto" className="container-fluid p-0">
-      <div className="row bg-particles text-center px-1 m-0">
-        <div className="footer-titles">
-          <h4 className="footer-title-styles px-2">
-            Comenzá a transformar tu negocio para una mayor productividad.
-          </h4>
-          <h5 className="footer-subtitle-styles px-2">
-            Nosotros nos encargamos de la tecnología.
-          </h5>
-        </div>
-      </div>
+      
       <div>
         <div className="row">
           <div className="col green-col py-5">

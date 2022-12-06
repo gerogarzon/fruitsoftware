@@ -5,24 +5,6 @@
     justify-content: center;
     z-index:10;
 }
-.navbar-active{
-    position:fixed;
-    width:100vw;
-    display: flex;
-    justify-content: center;
-    background-color:#297373;
-    z-index: 10;
-}
-.navbar-toggler{
-    border-color: #ffffff;
-}
-.logo-navbar{
-    max-width: 200px;
-    object-fit:contain;
-}
-.nav-link:hover{
-    color: #f1d302!important;
-}
 @media (max-width:991px){
     .navbar-container{
         position: relative;
@@ -33,19 +15,58 @@
         z-index:10;
     }
 }
+.navbar-active{
+    position:fixed;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    background-color:#ffff;  
+    z-index: 10;
+}
+.navbar-active a {
+    color:grey!important;
+}
+
+.navbar-toggler{
+    border-color: #ffffff;
+}
+.logo-navbar{
+    max-width: 300px;
+    max-height: 55px;
+    object-fit:contain;
+}
+.nav-link:hover{
+    color: #f1d302!important;
+}
+.navbar-active .nav-link:hover{
+    color:#93bedf!important;
+}
 .contacto{
     max-width: 120px;
 }
 .contacto:hover{
     color: #297373 !important;;
 }
+.navbar-active .contacto{
+    border-color: #93bedf!important;
+}
+.navbar-active .contacto:hover{
+    background-color:#93bedf;
+    color: #fff!important;
+}
 .banner{
     height:100vh;
     max-height: 810px;
     width: 100%; 
-    background-image: url(../../assets/Imagen\ Landing.png);
+    background-image: linear-gradient(
+        rgba(41, 115, 115, 0.8) , 
+        rgba(41, 115, 115, 0.8)
+      ),url(../../assets/Principal.bg.jpg);
+    /* background-image: url(../../assets/Principal.bg.jpg);
+    background-color:#297373!important; */
     background-size: cover;
     background-position: center center;
+    background-attachment: fixed;
 }
 .type{
     display:flex;

@@ -1,11 +1,4 @@
-.bg-particles{
-    background-image:linear-gradient(
-        rgba(41, 115, 115, 0.8), 
-        rgba(41, 115, 115, 0.8)
-      ),url(../../assets/particles.png); 
-      background-size: cover;
-      background-position: center center;    
-}
+
 .footer-titles{
     margin-top: 50px;
     margin-bottom: 50px;
@@ -21,8 +14,8 @@
 }
 .green-col{
     background-image: linear-gradient(
-        rgba(75, 190, 123, 0.7), 
-        rgba(76, 207, 131, 0.7)
+        rgba(75, 190, 123, 0.8), 
+        rgba(76, 207, 131, 0.8)
       ),url(../../assets/col-green.png);
       background-size: fill;
       display: flex;

@@ -1,5 +1,11 @@
 import React from "react";
 
+import infografia1 from "../../assets/infografia1.png";
+import puntitos_izq from "../../assets/puntitos_izq.png";
+import puntitos_der from "../../assets/puntitos_der.png";
+import infografia2 from "../../assets/infografia2.png";
+import infografia3 from "../../assets/infografia3.png";
+import computadoras from "../../assets/computadoras.png";
 import digitabilidad from "../../assets/digitabilidad.png";
 import portabilidad from "../../assets/portabilidad.png";
 import gestion from "../../assets/gestion.png";
@@ -12,35 +18,96 @@ import "./nuestroservicio.css";
 const NuestroServicio = () => {
   return (
     <div id="nuestroservicio" className="container-fluid p-0 text-center">
-      <div className="px-5">
-        <h2 className="title-styles pt-3">Nuestro Servicio</h2>
-        <h3 className="subtitle-styles pt-1">Desde 2019 hasta hoy</h3>
-        <p className="text-styles pt-1 ">
-          Somos Fruit Software™ y tenemos como misión brindar un sistema –
-          software de gestión, moderno y fácil de usar, hecho a medida para el
-          mercado mayorista y minorista frutihortícola. Este sistema cuenta con
-          una versión de aplicación móvil que puede ser personalizable por cada
-          cliente con su propia marca, añadiendo valor a su negocio, afianzando
-          y reforzando el vínculo con los clientes, como también mejorando sus
-          experiencias.
-        </p>
-        <h2 className="title-styles pt-3">
-          Olvidate ya de gestionar todo con papel y lápiz
+      <div className="funciones">
+        <img className="computadoras" src={computadoras} alt="logo" />
+        <h2 className="title-styles">
+          Modernizá tu mercado con nuestro servicio
         </h2>
         <h3 className="subtitle-styles pt-1">
-          Software moderno y sencillo de usar
+          Adiós a la gestión con papel y lápiz. Nosotros te traemos la Solución
         </h3>
-        <p className="text-styles pt-1">
-          Siendo tecnología de última generación, Fruit Software™ logra de
-          manera rápida y eficaz la gestión de tu negocio desde cualquier lugar
-          y desde cualquier dispositivo conectado a la red. Podrás cargar
-          pedidos, controlar y reponer stock, facturar, revisar saldos en tus
-          cuentascorrientes y mucho más.
+        <p className="text-styles pt-1 funciones_text">
+          Somos Fruit Software™, una empresa que brinda un software de gestión
+          moderno y sencillo, hecho a medida para el mercado mayorista y
+          minorista frutihortícola, con acceso a una aplicación móvil (App) para
+          recibir los pedidos y mejorar la experiencia de compra de tus
+          clientes. Siendo tecnología de última generación, Fruit Software™
+          logra de manera rápida y eficaz la gestión de tu negocio desde
+          cualquier lugar y desde cualquier dispositivo conectado a la red.
+        </p>
+      </div>
+      <div className="row mt-5">
+        <div className="col px-0">
+          <img className="puntitos" src={puntitos_izq} alt="puntos" />
+        </div>
+        <div className="col px-0 hidden_parent">
+          <img
+            className="infografia infografia1"
+            src={infografia1}
+            alt="infografia"
+          />
+          <div className="hidden_child">
+            <h3 className="subtitle-infografia pt-0">
+              Sistema de gestión para vos y tus clientes
+            </h3>
+            <p className="text-infografia pt-1 px-5">
+              Tu propia App Fruit Software™ personalizable con tu marca.
+            </p>
+          </div>
+        </div>
+        <div className="col puntitos px-0">
+          <img className="puntitos" src={puntitos_der} alt="puntos" />
+        </div>
+      </div>
+      <div className="row infografia-container">
+        <div className="col-6 hidden_parent">
+          <img className="infografia" src={infografia2} alt="infografia" />
+          <div className="hidden_child">
+            <h3 className="subtitle-infografia pt-4">
+              Conectamos tu puesto mayorista con tus clientes
+            </h3>
+            <p className="text-infografia pt-1 px-5">
+              Restaurantes, verdulerías, hospitales, empresas, hoteles,
+              comedores, colegios, etc. A través de tu propia App Fruit
+              Software™
+            </p>
+          </div>
+        </div>
+        <div className="col-6 hidden_parent">
+          <img className="infografia" src={infografia3} alt="infografia" />
+          <div className="hidden_child">
+            <h3 className="subtitle-infografia pt-3">
+              Conectamos tu verdulería con tus clientes
+            </h3>
+            <p className="text-infografia pt-1 px-5">
+              Consumidor final o bares a través de tu propia App Fruit Software™
+              con un módulo de pago.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="row bg-particles text-center px-1 m-0 ">
+        <div className="footer-titles">
+          <h4 className="footer-title-styles px-2">
+            Comenzá a transformar tu negocio para una mayor productividad.
+          </h4>
+          <h5 className="footer-subtitle-styles px-2">
+            Nosotros nos encargamos de la tecnología.
+          </h5>
+        </div>
+      </div>
+
+      <div className="personaliza">
+        <p className="personaliza_text">
+          PERSONALIZÁ <br></br>
+          LA APP CON <br></br>
+          TU MARCA
         </p>
       </div>
 
-      <div className="funciones">
-        <h2 className="subtitle-styles-2 p-5 m-0">
+      <div className="funcionalidades_container">
+        <h2 className="subtitle-styles-2 pt-5 pb-4 m-0">
           FUNCIONALIDADES DEL SOFTWARE
         </h2>
         <div className="d-flex justify-content-center">
@@ -51,101 +118,151 @@ const NuestroServicio = () => {
         </h3>
 
         <div className="row align-items-center justify-content-center">
-          <div className="col-md-3 col-sm-10 card d-flex justify-content-center align-items-center">
-            <img
-              src={digitabilidad}
-              style={{ maxWidth: "100px", maxHeight: "100px" }}
-              className="card-img-top card-image flex-grow-1"
-              alt="digitabilidad"
-            />
-            <div className="card-body flex-grow-1">
-              <div className="subtitle-styles p-0">Digitalidad</div>
-              <p className="card-text text-styles py-1">
-                Integrá la tecnología para crear nuevas experiencias en relación
-                al mercado
-              </p>
-            </div>
+          <div className="col-2 d-flex justify-content-center align-items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 200 200"
+              style={{
+                enableBackground: "new 0 0 200 200",
+              }}
+              xmlSpace="preserve"
+            >
+              <g fill="#F49F0A">
+                <path d="M159.6 127.2H145v-10.7c0-.7-.6-1.3-1.3-1.3h-10.3v-9.9c10.2-1.8 18.8-8.1 23.8-16.8.1-.1.1-.2.2-.3 2.7-4.8 4.2-10.4 4.2-16.3s-1.5-11.4-4.2-16.3c0-.1-.1-.2-.2-.3C151.4 45 140.3 38 127.7 38 112.3 38 98.9 48.4 95 63.1c-3.8-2.7-8.3-4.2-13.1-4.2-11.6 0-21.3 8.7-22.5 20.1-6.9.5-12.4 6.3-12.4 13.3 0 7.4 6 13.4 13.4 13.4h6v9.4H55.7c-.7 0-1.3.6-1.3 1.3v10.7H39.9c-.7 0-1.3.6-1.3 1.3v23.9c0 .7.6 1.3 1.3 1.3h7.9v5.5h-3.7c-.7 0-1.3.6-1.3 1.3 0 .7.6 1.3 1.3 1.3h23.4c.7 0 1.3-.6 1.3-1.3 0-.7-.6-1.3-1.3-1.3h-3.9v-5.5h7.9c.7 0 1.3-.6 1.3-1.3v-14.5h9.6v14.5c0 .7.6 1.3 1.3 1.3h7.9v5.5h-3.7c-.7 0-1.3.6-1.3 1.3 0 .7.6 1.3 1.3 1.3h23.4c.7 0 1.3-.6 1.3-1.3 0-.7-.6-1.3-1.3-1.3h-3.9v-5.5h7.9c.7 0 1.3-.6 1.3-1.3v-14.5h9.6v14.5c0 .7.6 1.3 1.3 1.3h7.9v5.5h-3.7c-.7 0-1.3.6-1.3 1.3 0 .7.6 1.3 1.3 1.3h23.4c.7 0 1.3-.6 1.3-1.3 0-.7-.6-1.3-1.3-1.3h-3.9v-5.5h7.9c.7 0 1.3-.6 1.3-1.3v-23.9c.5-.6-.1-1.2-.8-1.2zm-1.4 15.1h-29.1v-12.4h29.1v12.4zm-40.7-40.8c2.2-2.4 3.6-5.6 3.6-9.1 0-1.2-.2-2.3-.4-3.4h19.6c-.6 1.9-1.3 3.7-2.2 5.3-2.9 5.7-6.6 8.8-10.5 8.8-3.5.1-6.8-.5-10.1-1.6zm-7.7-28.2c0 2 .2 4.1.4 6-.8-.1-1.6-.2-2.4-.2-1.2 0-2.3.1-3.4.4-.2-2.2-.7-4.3-1.5-6.3h6.9zm17.8-32.6c3.9 0 7.6 3.1 10.5 8.8.8 1.6 1.5 3.4 2.2 5.3H115c.6-1.9 1.3-3.7 2.2-5.3 2.8-5.7 6.5-8.8 10.4-8.8zM141 57.5c1 4 1.6 8.5 1.7 13.1h-30.3c.1-4.6.7-9.1 1.7-13.1H141zm17.8 13.1h-13.4c-.1-4.6-.7-9.1-1.7-13.1h11.5c2.1 3.9 3.4 8.4 3.6 13.1zm-3.5 15.8h-11.5c1-4.1 1.6-8.5 1.7-13.1h13.4c-.3 4.7-1.6 9.1-3.6 13.1zm-42.4-6.3c-.3-2.2-.5-4.5-.5-6.9h30.3c-.1 4.6-.7 9.1-1.7 13.1h-21.4c-1.4-2.7-3.8-4.9-6.7-6.2zm23 22c1.7-1.7 3.2-3.8 4.6-6.5 1-2 1.9-4.2 2.6-6.5h10.7c-4.2 6.2-10.5 10.9-17.9 13zm17.8-47.3H143c-.7-2.3-1.6-4.5-2.6-6.5-1.3-2.7-2.9-4.8-4.6-6.5 7.5 2.1 13.8 6.8 17.9 13zm-34.4-13c-1.7 1.7-3.2 3.8-4.6 6.5-1 2-1.9 4.2-2.6 6.5h-10.7c4.2-6.3 10.6-10.9 17.9-13zM99.9 57.5h11.5c-1 4.1-1.6 8.5-1.7 13.1h-8.2c-1-1.8-2.3-3.6-3.9-5.1-.2-.2-.4-.3-.5-.5.6-2.6 1.6-5.2 2.8-7.5zm-50.4 35c0-5.9 4.8-10.7 10.7-10.7h.2c.7 0 1.3-.5 1.4-1.2.6-10.6 9.4-18.8 20-18.8 10.9 0 19.8 8.8 20 19.7 0 .4.2.8.6 1.1.4.2.8.3 1.2.1 1.3-.5 2.7-.8 4.1-.8 5.9 0 10.7 4.8 10.7 10.7 0 5.6-4.4 10.3-10 10.7H60.2c-5.9-.1-10.7-4.9-10.7-10.8zm20.8 37.4v12.4H41.2v-12.4h29.1zM61 159.3H50.5v-5.5H61v5.5zm9.3-8.2H41.2V145h29.1v6.1zm2.6-15.9v-6.7c0-.7-.6-1.3-1.3-1.3H57.1v-9.4h10.5c.7 0 1.3-.6 1.3-1.3v-10.7h29.5v21.4H83.8c-.7 0-1.3.6-1.3 1.3v6.7h-9.6zm41.4 7.1H85.2v-12.4h29.1v12.4zm-9.3 17H94.4v-5.5H105v5.5zm9.3-8.2H85.2V145h29.1v6.1zm2.6-15.9v-6.7c0-.7-.6-1.3-1.3-1.3H101v-21.4h7.5c.1 0 .3 0 .4-.1 2.3-.2 4.5-1 6.3-2.3 3.9 1.5 8.1 2.3 12.3 2.3 1.1 0 2.1-.1 3.1-.1v10.8c0 .7.6 1.3 1.3 1.3h10.3v9.4h-14.6c-.7 0-1.3.6-1.3 1.3v6.7h-9.4zm32.1 24.1h-10.6v-5.5H149v5.5zm9.2-8.2h-29V145h29.1v6.1z" />
+                <path d="M81.7 69.8c5 0 9.5 3.2 11.2 7.9.2.5.7.9 1.2.9.1 0 .3 0 .4-.1.7-.2 1.1-1 .8-1.7-2.1-5.8-7.6-9.7-13.7-9.7-.7 0-1.3.6-1.3 1.3.1.8.7 1.4 1.4 1.4zM75.3 97.3c1.1 0 1.9-.9 1.9-1.9 0-1.1-.9-1.9-1.9-1.9s-1.9.9-1.9 1.9c0 1 .8 1.9 1.9 1.9zM84 93.4c-1.1 0-1.9.9-1.9 1.9 0 1.1.9 1.9 1.9 1.9 1.1 0 1.9-.9 1.9-1.9 0-1-.9-1.9-1.9-1.9z" />
+                <circle cx={92.6} cy={95.3} r={1.9} />
+              </g>
+            </svg>
           </div>
-
-          <div className="col-md-3 col-sm-10 card d-flex justify-content-center align-items-center">
-            <img
-              src={portabilidad}
-              style={{ maxWidth: "100px", maxHeight: "100px" }}
-              className="card-img-top card-image flex-grow-1"
-              alt="portabilidad"
-            />
-            <div className="card-body flex-grow-1">
-              <div className="subtitle-styles p-0">Portabilidad</div>
-              <p className="card-text text-styles py-1">
-                Ingresá desde cualquier lugar. El sistema es compatible y
-                adaptable a todos los dispositivos de hoy en día
-              </p>
-            </div>
+          <div className="col-4">
+            <div className="subtitle-styles p-0">Digitalidad</div>
+            <p className="card-text text-styles py-1">
+              Integrá la tecnología para crear nuevas experiencias en relación
+              al mercado
+            </p>
           </div>
-
-          <div className="col-md-3 col-sm-10 card d-flex justify-content-center align-items-center">
-            <img
-              src={gestion}
-              style={{ maxWidth: "100px", maxHeight: "100px" }}
-              className="card-img-top card-image flex-grow-1"
-              alt="gestion"
-            />
-            <div className="card-body flex-grow-1">
-              <div className="subtitle-styles p-0">Gestión en Tiempo Real</div>
-              <p className="card-text text-styles py-1">
-                Total libertad del usuario de gestionar en tiempo real pedidos y
-                compras, contorlar stock, revisar saldos, etc.
-              </p>
-            </div>
+          <div className="col-2 d-flex justify-content-center align-items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 200 200"
+              style={{
+                enableBackground: "new 0 0 200 200",
+              }}
+              xmlSpace="preserve"
+            >
+              <g fill="#F49F0A">
+                <path d="M43.3 55.8c-1.4 0-2.6 1.2-2.6 2.6v5.8c0 .7.6 1.3 1.3 1.3.7 0 1.3-.6 1.3-1.3v-5.8h5.5c.7 0 1.3-.6 1.3-1.3 0-.7-.6-1.3-1.3-1.3h-5.5zM123.4 89.8h-3.8c-1.4 0-2.6 1.2-2.6 2.6V96c0 .7.6 1.3 1.3 1.3.7 0 1.3-.6 1.3-1.3v-3.5h3.7c.7 0 1.3-.6 1.3-1.3s-.4-1.4-1.2-1.4zM145.9 97.5c.7 0 1.3-.6 1.3-1.3v-3.8h3.8c.7 0 1.3-.6 1.3-1.3s-.6-1.3-1.3-1.3h-3.9c-1.4 0-2.6 1.2-2.6 2.6v3.8c.1.7.7 1.3 1.4 1.3z" />
+                <path d="M163.2 74.6h-21c-2.2 0-4 1.8-4 4v4.8h-23.5c-2.2 0-4 1.8-4 4v45.1H36.8c-.7 0-1.3-.6-1.3-1.3v-8.6h69.1c.7 0 1.3-.6 1.3-1.3 0-.7-.6-1.3-1.3-1.3H35.5V51.3c0-.7.6-1.3 1.3-1.3h113.3c.7 0 1.3.6 1.3 1.3v17.2c0 .7.6 1.3 1.3 1.3.7 0 1.3-.6 1.3-1.3V51.3c0-2.2-1.8-4-4-4H36.8c-2.2 0-4 1.8-4 4v79.8c0 2.2 1.8 4 4 4H81v15h-8.5c-.7 0-1.3.6-1.3 1.3s.6 1.3 1.3 1.3h41.8c.7 0 1.3-.6 1.3-1.3s-.6-1.3-1.3-1.3h-8.5v-15h4.8v4.8c0 2.2 1.8 4 4 4h35.5c2.2 0 4-1.8 4-4V124.8h9.1c2.2 0 4-1.8 4-4V78.4c0-2-1.8-3.8-4-3.8zm-60 75.4H83.7v-15h19.5v15zm39-72.8h21c.7 0 1.3.6 1.3 1.3v4.8h-23.7v-4.8c0-.7.6-1.3 1.4-1.3zm22.3 36.2h-23.7V86h23.7v27.4zm-14.4 27.8h-35.5c-.7 0-1.3-.6-1.3-1.3v-4.8h38.1v4.8c.1.7-.5 1.3-1.3 1.3zm1.4-8.8h-38.1v-45c0-.7.6-1.3 1.3-1.3h23.5V121c0 2.2 1.8 4 4 4h9.3v7.4zm11.7-10.2h-21c-.7 0-1.3-.6-1.3-1.3v-4.8h23.7v4.8c-.1.7-.7 1.3-1.4 1.3z" />
+                <path d="M82.9 112.9c0 1.1.9 1.9 1.9 1.9 1.1 0 1.9-.9 1.9-1.9 0-1.1-.9-1.9-1.9-1.9-1 0-1.9.9-1.9 1.9z" />
+                <circle cx={93.5} cy={112.9} r={1.9} />
+                <path d="M100.2 112.9c0 1.1.9 1.9 1.9 1.9 1.1 0 1.9-.9 1.9-1.9 0-1.1-.9-1.9-1.9-1.9-1.1 0-1.9.9-1.9 1.9z" />
+              </g>
+            </svg>
+          </div>
+          <div className="col-4">
+            <div className="subtitle-styles p-0">Portabilidad</div>
+            <p className="card-text text-styles py-1">
+              Ingresá desde cualquier lugar. El sistema es compatible y
+              adaptable a todos los dispositivos de hoy en día
+            </p>
           </div>
         </div>
 
-        <div className="row gx-5 align-items-center justify-content-center">
-          <div className="col-md-3 col-sm-10 card d-flex justify-content-center align-items-center">
-            <img
-              src={personalizacion}
-              style={{ maxWidth: "100px", maxHeight: "100px" }}
-              className="card-img-top card-image flex-grow-1"
-              alt="gestion"
-            />
-            <div className="card-body flex-grow-1">
-              <div className="subtitle-styles p-0">Personalización</div>
-              <p className="card-text text-styles py-1">
-                Personalizá la app para que tenga tu propia marca y así añadir
-                valor a tu negocio
-              </p>
-            </div>
+        <div className="row align-items-center justify-content-center">
+          <div className="col-2 d-flex justify-content-center align-items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 200 200"
+              style={{
+                enableBackground: "new 0 0 200 200",
+              }}
+              xmlSpace="preserve"
+            >
+              <g fill="#F49F0A">
+                <path d="M81.8 86.8c1.7 0 3.4-.3 4.9-1 .7-.3 1-1.1.7-1.7-.3-.7-1.1-1-1.7-.7-1.2.5-2.6.8-3.9.8-5.6 0-10.1-4.5-10.1-10.1S76.2 64 81.8 64s10.1 4.5 10.1 10.1c0 .7-.1 1.3-.2 2-.2.8-.4 1.6-.8 2.3-.3.7 0 1.5.6 1.8.2.1.4.1.6.1.5 0 1-.3 1.2-.8.4-.9.8-1.9 1-3 .2-.8.2-1.6.2-2.5 0-7.1-5.7-12.8-12.8-12.8S69 66.9 69 74s5.7 12.8 12.8 12.8zM158.8 124.6c-1.6-2.6-4.9-3.6-7.6-2.2l-1.8.9c.2-1.2 0-2.5-.6-3.7-1.5-2.9-5.1-4-8-2.5l-3.5 1.9c.1-1-.1-2-.6-3-1.4-2.7-4.8-3.8-7.5-2.3l-3.3 1.8c.1-1-.1-2-.6-3-.7-1.3-1.9-2.3-3.3-2.7-1.4-.4-2.9-.3-4.2.4l-24 12.6c-4.4-1.4-10.8-2.6-18.2-1.8-.7.1-1.2.7-1.2 1.5.1.7.7 1.2 1.5 1.2 7.7-.9 14.2.6 18.3 2.1.1.1.3.1.4.1h20.8c1.9 0 3.5 1.5 3.6 3.4v.4c-.1 1.8-1.4 3.3-3.2 3.5L88.4 136c-.6.1-1.1.6-1.2 1.2-.1.6.3 1.2.9 1.4 6.5 2 13.1 2.9 19.8 2.7 5.8-.1 11.6-1.1 17.1-2.9.1 0 .1 0 .2-.1.7-.3 1.4-.7 2.1-1.1 3.6-1.8 7.5-3.8 11.4-5.7 4.6-2.3 9.4-4.7 13.5-6.8 1.5-.7 3.3-.2 4.2 1.2.5.7.6 1.6.4 2.5-.2.9-.8 1.6-1.5 2-2.3 1.3-4.9 2.9-7.7 4.5-3 1.7-6 3.5-8.8 5.1-.6.4-.9 1.2-.5 1.8.2.4.7.7 1.2.7.2 0 .4-.1.7-.2 2.8-1.6 5.8-3.4 8.8-5.1 2.8-1.6 5.4-3.2 7.7-4.5 1.4-.8 2.4-2.1 2.8-3.6.4-1.5.2-3.1-.7-4.5zm-39.9-12c.7-.4 1.5-.4 2.2-.2.7.2 1.3.7 1.7 1.4.7 1.4.2 3.2-1.2 3.9l-10.5 5.5H98.7l20.2-10.6zm-2.3 10.8 6.3-3.3 7.5-4c1.4-.7 3.2-.2 3.9 1.2.4.7.4 1.5.2 2.2-.2.7-.7 1.3-1.4 1.7l-11.8 6.2c-.8-2-2.5-3.6-4.7-4zm7.7 12.5c-5.3 1.7-10.8 2.6-16.3 2.7-3.9.1-7.7-.2-11.5-.8l19.6-2.1c2.9-.3 5.2-2.6 5.6-5.5l20.5-10.8c1.6-.8 3.6-.2 4.4 1.4.8 1.6.2 3.6-1.4 4.4l-18.8 9.6c-.8.5-1.5.8-2.1 1.1z" />
+                <path d="M131.3 144.2c-5.1 2.9-10.2 5.8-14.8 8.4-5.3 2.5-10.7 4.1-16.3 4.8-5.6.7-9.6.2-17-.7-1.4-.2-2.9-.3-4.5-.5-7.8-.9-15.9-1.7-24-2.2H42.9v-21.2h11.7c.3 0 .6-.1.8-.3 3.8-3 8-5.3 12.6-6.9.7-.2 1.1-1 .8-1.7-.2-.7-1-1.1-1.7-.8-4.7 1.6-9.1 3.9-13 7H41.6c-.7 0-1.3.6-1.3 1.3v23.9c0 .7.6 1.3 1.3 1.3h12.9c8 .6 16 1.3 23.8 2.2 1.6.2 3.1.4 4.5.5 5.1.6 8.7 1.1 12.3 1.1 1.7 0 3.5-.1 5.4-.3 5.9-.7 11.7-2.4 17.2-5h.1c4.7-2.7 9.7-5.5 14.9-8.5.6-.4.9-1.2.5-1.8-.4-.8-1.2-1-1.9-.6zM52.4 79.6h6.4c.6 2.4 1.5 4.6 2.8 6.7l-4.5 4.5c-.2.2-.4.6-.4.9 0 .4.1.7.4.9l6 6c.5.5 1.4.5 1.9 0l4.5-4.5c2.1 1.3 4.3 2.2 6.7 2.8v6.4c0 .7.6 1.3 1.3 1.3H86c.7 0 1.3-.6 1.3-1.3v-6.4c2.4-.6 4.6-1.5 6.7-2.8l4.5 4.5c.5.5 1.4.5 1.9 0l6-6c.2-.2.4-.6.4-.9 0-.4-.1-.7-.4-.9l-4.5-4.5c1.3-2.1 2.2-4.3 2.8-6.7h6.4c.7 0 1.3-.6 1.3-1.3v-2.9h10.9v25.1c0 .7.6 1.3 1.3 1.3h10.1c.6 3.7 3.8 6.6 7.7 6.6 4.3 0 7.8-3.5 7.8-7.8s-3.5-7.8-7.8-7.8c-3.8 0-6.9 2.7-7.6 6.3H126V75.3h8.8c.6 3.6 3.8 6.4 7.6 6.4 4.3 0 7.8-3.5 7.8-7.8s-3.5-7.8-7.8-7.8c-3.8 0-7 2.8-7.6 6.4H126V48.9h8.8c.7 3.6 3.8 6.3 7.6 6.3 4.3 0 7.8-3.5 7.8-7.8s-3.5-7.8-7.8-7.8c-3.9 0-7.1 2.9-7.7 6.6h-10.1c-.7 0-1.3.6-1.3 1.3v25.1h-10.9v-2.9c0-.7-.6-1.3-1.3-1.3h-6.4c-.6-2.4-1.5-4.6-2.8-6.7l4.5-4.5c.2-.2.4-.6.4-.9s-.1-.7-.4-.9l-6-6c-.5-.5-1.4-.5-1.9 0L94 53.8c-2.1-1.3-4.3-2.2-6.7-2.8v-6.4c0-.7-.6-1.3-1.3-1.3h-8.5c-.7 0-1.3.6-1.3 1.3V51c-2.4.6-4.6 1.5-6.7 2.8L65 49.3c-.5-.5-1.4-.5-1.9 0l-6 6c-.2.2-.4.6-.4.9s.1.7.4.9l4.5 4.5c-1.3 2.1-2.2 4.3-2.8 6.7h-6.4c-.7 0-1.3.6-1.3 1.3v8.5c0 .9.6 1.5 1.3 1.5zm90 15.8c2.8 0 5.1 2.3 5.1 5.1s-2.3 5.1-5.1 5.1-5.1-2.3-5.1-5.1 2.3-5.1 5.1-5.1zm0-26.5c2.8 0 5.1 2.3 5.1 5.1s-2.3 5.1-5.1 5.1-5.1-2.3-5.1-5.1 2.3-5.1 5.1-5.1zm0-26.6c2.8 0 5.1 2.3 5.1 5.1s-2.3 5.1-5.1 5.1-5.1-2.3-5.1-5.1 2.3-5.1 5.1-5.1zM53.8 71.1H60c.6 0 1.2-.5 1.3-1.1.5-2.8 1.6-5.4 3.2-7.7.4-.5.3-1.2-.2-1.7l-4.4-4.4 4.2-4.2 4.4 4.4c.4.4 1.2.5 1.7.2 2.3-1.6 4.9-2.6 7.7-3.2.6-.1 1.1-.7 1.1-1.3V46h5.9v6.2c0 .6.5 1.2 1.1 1.3 2.8.5 5.4 1.6 7.7 3.2.5.4 1.2.3 1.7-.2l4.4-4.4 4.2 4.2-4.4 4.4c-.4.4-.5 1.2-.2 1.7 1.6 2.3 2.6 4.9 3.2 7.7.1.6.7 1.1 1.3 1.1h6.2v5.9h-6.2c-.6 0-1.2.5-1.3 1.1-.5 2.8-1.6 5.4-3.2 7.7-.4.5-.3 1.2.2 1.7L104 92l-4.2 4.2-4.4-4.4c-.4-.4-1.2-.5-1.7-.2-2.3 1.6-4.9 2.6-7.7 3.2-.6.1-1.1.7-1.1 1.3v6.2H79v-6.2c0-.6-.5-1.2-1.1-1.3-2.8-.5-5.4-1.6-7.7-3.2-.5-.4-1.2-.3-1.7.2L64 95.9l-4.2-4.2 4.4-4.4c.4-.4.5-1.2.2-1.7-1.6-2.3-2.6-4.9-3.2-7.7-.1-.6-.7-1.1-1.3-1.1h-6.2v-5.7z" />
+              </g>
+            </svg>
+          </div>
+          <div className="col-4">
+            <div className="subtitle-styles p-0">Gestión en Tiempo Real</div>
+            <p className="card-text text-styles py-1">
+              Total libertad del usuario de gestionar en tiempo real pedidos y
+              compras, contorlar stock, revisar saldos, etc.
+            </p>
+          </div>
+          <div className="col-2 d-flex justify-content-center align-items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 200 200"
+              style={{
+                enableBackground: "new 0 0 200 200",
+              }}
+              xmlSpace="preserve"
+            >
+              <g fill="#F49F0A">
+                <path d="M138.7 125.4c-2.1 0-4 .8-5.4 2.1v-.9c0-4.5-3.6-8.1-8.1-8.1-2.8 0-5.3 1.5-6.8 3.7-.8-1.1-1.8-2.1-3-2.7 6.4-2.7 12.2-6.8 16.8-12.2 7-8.1 10.8-18.5 10.8-29.2 0-9.5-2.9-18.6-8.5-26.3 1.4-1.7 2.3-3.9 2.3-6.2 0-5.3-4.3-9.7-9.7-9.7-5.3 0-9.7 4.3-9.7 9.7 0 5.3 4.3 9.7 9.7 9.7 2 0 3.9-.6 5.4-1.7 5.1 7.2 7.8 15.6 7.8 24.5 0 20.4-14.3 37.6-34.1 41.4v-16.7c5-1.6 9.5-4.8 12.7-9 3.4-4.5 5.3-10 5.3-15.7 0-14.3-11.7-26-26-26s-26 11.7-26 26c0 11.2 7.3 21.3 17.9 24.7v43.6l-4.2-8.5c-2.3-4.6-8-6.5-12.6-4.2-2.2 1.1-3.9 3.1-4.7 5.5-.8 2.4-.6 4.9.5 7.2l10 19.9c.2.5.7.7 1.2.7.2 0 .4 0 .6-.1.7-.3.9-1.1.6-1.8l-10-19.9c-.8-1.6-.9-3.5-.4-5.2.6-1.7 1.8-3.1 3.4-3.9 3.3-1.7 7.4-.3 9.1 3l6.8 13.4v.1s0 .1.1.1l.1.1.1.1.1.1.1.1s.1 0 .1.1c0 0 .1 0 .1.1h.7s.1 0 .1-.1h.1s.1 0 .1-.1l.1-.1.1-.1.1-.1.1-.1s0-.1.1-.1c0 0 0-.1.1-.1v-62c0-3 2.4-5.4 5.4-5.4s5.4 2.4 5.4 5.4v51.6c0 .7.6 1.3 1.3 1.3.7 0 1.3-.6 1.3-1.3v-15.4c0-3 2.4-5.4 5.4-5.4 3 0 5.4 2.4 5.4 5.4v16.5c0 .7.6 1.3 1.3 1.3.7 0 1.3-.6 1.3-1.3v-16.5c0-3 2.4-5.4 5.4-5.4s5.4 2.4 5.4 5.4v16.8c0 .7.6 1.3 1.3 1.3s1.3-.6 1.3-1.3v-9.9c0-3 2.4-5.4 5.4-5.4s5.4 2.4 5.4 5.4v31.8c0 .7.6 1.3 1.3 1.3.7 0 1.3-.6 1.3-1.3v-31.8c.5-4.5-3.2-8.2-7.6-8.2zm-18.6-79.9c0-3.9 3.1-7 7-7s7 3.1 7 7-3.1 7-7 7-7-3.1-7-7zM74.8 78c0-12.9 10.5-23.4 23.4-23.4s23.4 10.5 23.4 23.4c0 9.8-6.2 18.6-15.3 21.9v-9.5c0-1.5-.4-2.9-1.1-4 2.5-2.1 3.9-5.1 3.9-8.4 0-6-4.9-10.9-10.9-10.9S87.3 72 87.3 78c0 3.3 1.4 6.3 3.9 8.4-.7 1.2-1.1 2.6-1.1 4v9.5C81 96.6 74.8 87.8 74.8 78zm23.3 4.4c-2 0-3.9.8-5.3 2-1.9-1.6-3-3.9-3-6.3 0-4.6 3.7-8.3 8.3-8.3 4.6 0 8.3 3.7 8.3 8.3 0 2.5-1.1 4.8-3 6.3-1.4-1.3-3.3-2-5.3-2z" />
+                <path d="M78.7 110.4c0-5.3-4.3-9.7-9.7-9.7-2 0-3.8.6-5.4 1.6-5.1-7.1-7.7-15.5-7.7-24.4 0-23.3 18.9-42.2 42.2-42.2.7 0 1.3-.6 1.3-1.3s-.6-1.3-1.3-1.3c-24.7 0-44.9 20.1-44.9 44.9 0 9.5 2.9 18.5 8.4 26.1-1.4 1.7-2.3 3.9-2.3 6.2 0 5.3 4.3 9.7 9.7 9.7 5.3.1 9.7-4.2 9.7-9.6zm-16.7 0c0-3.9 3.1-7 7-7s7 3.1 7 7-3.1 7-7 7-7-3.1-7-7z" />
+                <circle cx={107.7} cy={35.5} r={2.6} />
+              </g>
+            </svg>
+          </div>
+          <div className="col-4">
+            <div className="subtitle-styles p-0">Personalización</div>
+            <p className="card-text text-styles py-1">
+              Personalizá la app para que tenga tu propia marca y así añadir
+              valor a tu negocio
+            </p>
+          </div>
+        </div>
+
+        <div className="row align-items-center justify-content-center">
+          <div className="col-2 d-flex justify-content-center align-items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 200 200"
+              style={{
+                enableBackground: "new 0 0 200 200",
+              }}
+              xmlSpace="preserve"
+            >
+              <g fill="#F49F0A">
+                <path d="m107 89.2-10.6 10.9-3.6-3.4c-1.3-1.3-3.4-1.2-4.7.1-1.3 1.3-1.2 3.4.1 4.7l5.9 5.6c.6.6 1.5.9 2.3.9.9 0 1.7-.3 2.4-1l12.9-13.2c1.3-1.3 1.3-3.4-.1-4.7-1.2-1.3-3.3-1.2-4.6.1z" />
+                <path d="M61.3 62.7c-.8 4.3-2.4 15.6-1 29.1 1.9 18.5 8.7 33.3 20 44.2 5.3 5 11.5 9.1 18.5 12.2.2.1.3.1.5.1h1.1c.2 0 .4 0 .5-.1 7-3 13.3-7.1 18.5-12.2 11.3-10.9 18.1-25.7 20-44.2 1.4-13.4-.2-24.8-1-29.1-.1-.6-.6-1.1-1.3-1.1-6-.1-11.9-.9-17.7-2.3-6.6-1.6-13-4.1-19-7.3-.4-.2-.9-.2-1.3 0-6 3.2-12.4 5.7-19 7.3-5.8 1.4-11.8 2.2-17.7 2.3-.4 0-.9.5-1.1 1.1zm19.7-.9c6.6-1.6 13-4.1 19-7.3 6 3.2 12.4 5.6 19 7.3 5.6 1.4 11.4 2.2 17.2 2.4 1.6 9.7 5.7 46.7-18.4 69.8-5 4.8-10.9 8.7-17.5 11.6h-.5c-6.6-2.9-12.5-6.8-17.5-11.6-24.2-23.1-20-60.2-18.4-69.8 5.7-.2 11.5-1 17.1-2.4z" />
+                <path d="M148.7 52.7c-.1-.6-.6-1.1-1.3-1.1-7.6-.1-15.2-1.1-22.6-3-8.4-2.1-16.6-5.2-24.2-9.4-.4-.2-.9-.2-1.3 0-6.4 3.5-13.2 6.2-20.1 8.3-.7.2-1.1.9-.9 1.6.2.7.9 1.1 1.6.9 6.9-2 13.7-4.8 20-8.1 7.7 4.1 15.8 7.2 24.2 9.3 7.2 1.8 14.6 2.8 22.1 3 2 11.8 7.6 59.5-23.5 89.2-6.4 6.1-13.9 11.1-22.4 14.8h-.8c-8.5-3.7-16-8.7-22.4-14.8-31-29.7-25.4-77.4-23.5-89.2 5.4-.2 10.8-.7 16-1.7.7-.1 1.2-.8 1.1-1.5-.1-.7-.8-1.2-1.5-1.1-5.5 1-11.1 1.6-16.7 1.7-.6 0-1.2.5-1.3 1.1-1 5.4-3 19.8-1.2 36.8 1.1 10.4 3.4 20 7 28.6 4.3 10.6 10.5 19.8 18.3 27.3 6.7 6.4 14.5 11.6 23.4 15.4.2.1.3.1.5.1h1.4c.2 0 .4 0 .5-.1 8.9-3.8 16.8-9 23.4-15.4 7.8-7.5 14-16.7 18.3-27.3 3.5-8.6 5.9-18.3 7-28.6 1.9-17-.1-31.4-1.1-36.8z" />
+                <path d="M100 123c6.6 0 12.8-2.5 17.5-7.1.5-.5.5-1.4 0-1.9s-1.4-.5-1.9 0c-4.2 4.1-9.7 6.4-15.6 6.4-12.3 0-22.3-10-22.3-22.3s10-22.3 22.3-22.3 22.3 10 22.3 22.3c0 2.7-.5 5.4-1.4 7.9-.3.7.1 1.5.8 1.7.7.3 1.5-.1 1.7-.8 1.1-2.8 1.6-5.8 1.6-8.8 0-13.7-11.2-24.9-24.9-24.9S75.2 84.4 75.2 98.1C75.1 111.8 86.3 123 100 123z" />
+              </g>
+            </svg>
+          </div>
+          <div className="col-4">
+            <div className="subtitle-styles p-0">Seguridad y Fiabilidad</div>
+            <p className="card-text text-styles py-1">
+              Tus datos y operaciones se registran en la base de datos del
+              software de manera privada y segura
+            </p>
           </div>
 
-          <div className="col-md-3 col-sm-10 card d-flex justify-content-center align-items-center">
-            <img
-              src={seguridad}
-              style={{ maxWidth: "100px", maxHeight: "100px" }}
-              className="card-img-top card-image flex-grow-1"
-              alt="gestion"
-            />
-            <div className="card-body flex-grow-1">
-              <div className="subtitle-styles p-0">Seguridad y Fiabilidad</div>
-              <p className="card-text text-styles py-1">
-                Tus datos y operaciones se registran en la base de datos del
-                software de manera privada y segura
-              </p>
-            </div>
+          <div className="col-2 d-flex justify-content-center align-items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 200 200"
+              style={{
+                enableBackground: "new 0 0 200 200",
+              }}
+              xmlSpace="preserve"
+            >
+              <g fill="#F49F0A">
+                <path d="M163.5 160.3h-19.8v-55.1c0-.7-.6-1.3-1.3-1.3h-2.6v-8.6c6.4-1.3 12.2-4.7 16.5-9.7 4.6-5.3 7.1-12.1 7.1-19.2 0-16.2-13.2-29.4-29.4-29.4s-29.4 13.2-29.4 29.4c0 7 2.5 13.8 7.1 19.2 4.3 5 10.1 8.4 16.5 9.7v8.6h-2.6c-.7 0-1.3.6-1.3 1.3v55.1h-8.4V97c0-.7-.6-1.3-1.3-1.3H97.5c-.7 0-1.3.6-1.3 1.3v63.3h-8.4v-46.9c0-.7-.6-1.3-1.3-1.3H69.6c-.7 0-1.3.6-1.3 1.3v46.9H60v-27c0-.7-.6-1.3-1.3-1.3h-17c-.7 0-1.3.6-1.3 1.3v27h-3.8c-.7 0-1.3.6-1.3 1.3 0 .7.6 1.3 1.3 1.3H163.5c.7 0 1.3-.6 1.3-1.3 0-.7-.6-1.3-1.3-1.3zm-33.9-67.4c-13-2.1-22.4-13.2-22.4-26.4 0-14.8 12-26.8 26.8-26.8s26.8 12 26.8 26.8c0 13.2-9.4 24.3-22.4 26.4-.6.1-1.1.7-1.1 1.3v9.7h-6.4v-9.7c-.2-.7-.7-1.2-1.3-1.3zM43 160.3v-25.7h14.3v25.7H43zm28 0v-45.6h14.3v45.6H71zm27.9 0v-62h14.3v62H98.9zm27.9 0v-53.8H141.1v53.8h-14.3z" />
+                <path d="M38.7 127.2c.3 0 .6-.1.9-.4l25.2-23.5H78c.4 0 .7-.1.9-.4l18.9-18.8v6.1c0 .7.6 1.3 1.3 1.3.7 0 1.3-.6 1.3-1.3v-9.7s0-.1-.1-.1c0 0 0-.1-.1-.1 0-.1-.1-.1-.1-.2l-.2-.2s-.1 0-.1-.1l-.1-.1h-9.9c-.7 0-1.3.6-1.3 1.3 0 .7.6 1.3 1.3 1.3H96l-18.5 18.4H64.3c-.3 0-.7.1-.9.4L37.8 125c-.5.5-.6 1.3-.1 1.9.3.1.7.3 1 .3zM150.4 105.2c0 .7.6 1.3 1.3 1.3h11.7c.7 0 1.3-.6 1.3-1.3s-.6-1.3-1.3-1.3h-11.7c-.7 0-1.3.6-1.3 1.3zM163.5 112h-11.7c-.7 0-1.3.6-1.3 1.3s.6 1.3 1.3 1.3h11.7c.7 0 1.3-.6 1.3-1.3s-.6-1.3-1.3-1.3zM163.5 120h-11.7c-.7 0-1.3.6-1.3 1.3 0 .7.6 1.3 1.3 1.3h11.7c.7 0 1.3-.6 1.3-1.3 0-.7-.6-1.3-1.3-1.3zM163.5 128.1h-11.7c-.7 0-1.3.6-1.3 1.3s.6 1.3 1.3 1.3h11.7c.7 0 1.3-.6 1.3-1.3s-.6-1.3-1.3-1.3zM163.5 136.2h-11.7c-.7 0-1.3.6-1.3 1.3s.6 1.3 1.3 1.3h11.7c.7 0 1.3-.6 1.3-1.3s-.6-1.3-1.3-1.3zM163.5 144.2h-11.7c-.7 0-1.3.6-1.3 1.3 0 .7.6 1.3 1.3 1.3h11.7c.7 0 1.3-.6 1.3-1.3 0-.7-.6-1.3-1.3-1.3zM163.5 152.3h-11.7c-.7 0-1.3.6-1.3 1.3 0 .7.6 1.3 1.3 1.3h11.7c.7 0 1.3-.6 1.3-1.3 0-.7-.6-1.3-1.3-1.3zM155.3 66.4c0-11.8-9.6-21.4-21.4-21.4s-21.4 9.6-21.4 21.4 9.6 21.4 21.4 21.4 21.4-9.6 21.4-21.4zm-40.1 0c0-10.3 8.4-18.7 18.7-18.7 10.3 0 18.7 8.4 18.7 18.7s-8.4 18.7-18.7 18.7c-10.3.1-18.7-8.3-18.7-18.7z" />
+                <path d="M135.2 77.5V59.1l4.2 4.2c.3.3.6.4.9.4.3 0 .7-.1.9-.4.5-.5.5-1.4 0-1.9l-6.5-6.5c-.5-.5-1.4-.5-1.9 0l-6.5 6.5c-.5.5-.5 1.4 0 1.9s1.4.5 1.9 0l4.2-4.2v18.4c0 .7.6 1.3 1.3 1.3.9 0 1.5-.6 1.5-1.3z" />
+              </g>
+            </svg>
           </div>
-
-          <div className="col-md-3 col-sm-10 card d-flex justify-content-center align-items-center">
-            <img
-              src={optimizacion}
-              style={{ maxWidth: "100px", maxHeight: "100px" }}
-              className="card-img-top card-image flex-grow-1"
-              alt="gestion"
-            />
-            <div className="card-body flex-grow-1">
-              <div className="subtitle-styles p-0">Optimización</div>
-              <p className="card-text text-styles py-1">
-                Optimizá recursos humanos, trabajo y tu tiempo
-              </p>
-            </div>
+          <div className="col-4">
+            <div className="subtitle-styles p-0">Optimización</div>
+            <p className="card-text text-styles py-1">
+              Optimizá recursos humanos, trabajo y tu tiempo
+            </p>
           </div>
         </div>
       </div>

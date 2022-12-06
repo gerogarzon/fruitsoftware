@@ -4,16 +4,19 @@ import "./galeria.css";
 import puesteros from "../../assets/puesteros.jpg";
 import puesteros2 from "../../assets/puesteros2.jpg";
 import puesteros3 from "../../assets/puesteros3.jpg";
+import puesteros4 from "../../assets/puesteros4.jpg";
+import puesteros5 from "../../assets/puesteros5.jpeg";
+
 
 const Galeria = () => {
   return (
     <div id="galeria" className="container-fluid p-2 galeria text-center">
-        <div className="clientes-subtitle-styles m-0">
-       MIRA NUESTRA GALERIA
+        <div className="d-flex justify-content-start galeria-subtitle-styles m-0">
+        GALERIA
       </div>
-      <div className="d-flex justify-content-center">
-        <div className="divider"></div>
-      </div>
+      {/* <div className="d-flex justify-content-center">
+        <div className="galeria_divider"></div>
+      </div> */}
       <div
         id="carouselExampleIndicators"
         className="carousel slide  carousel-dark p-5 my-1"
@@ -40,21 +43,43 @@ const Galeria = () => {
             data-bs-slide-to="2"
             aria-label="Slide 3"
           ></button>
+           <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+           <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active"> 
           <div className="d-flex justify-content-center">
-            <img src={puesteros} className="galeria-images" alt="..." />
+            <img src={puesteros} className="galeria-images" alt="galeria" />
           </div>
           </div>
           <div className="carousel-item">
           <div className="d-flex justify-content-center">
-            <img src={puesteros2} className="galeria-images" alt="..." />
+            <img src={puesteros2} className="galeria-images" alt="galeria" />
           </div>
           </div>
           <div className="carousel-item">
           <div className="d-flex justify-content-center">
-            <img src={puesteros3} className="galeria-images" alt="..." />
+            <img src={puesteros3} className="galeria-images" alt="galeria" />
+          </div>
+          </div>
+          <div className="carousel-item">
+          <div className="d-flex justify-content-center">
+            <img src={puesteros4} className="galeria-images" alt="galeria" />
+          </div>
+          </div>
+          <div className="carousel-item">
+          <div className="d-flex justify-content-center">
+            <img src={puesteros5} className="galeria-images" alt="galeria" />
           </div>
           </div>
         </div>
