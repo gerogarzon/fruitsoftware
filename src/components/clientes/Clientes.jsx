@@ -41,12 +41,10 @@ const Clientes = () => {
               <img src={line} className="line-image" alt="line" />
             </div>
             <div className="text-center carousel-text-light p-1">
-              Desde 2020 trabajamos con el sistema y la app de Fruit Software y
-              es todo un éxito. Agilizamos nuestra gestión de pedidos y
-              despachos de producto.
+            Desde que comenzamos a utilizar FruitSoftware el negocio ha mejorado enormemente y los clientes estan muy contentos. Recomendaría este software a cualquier otro empresario que busque una solución de gestión efectiva. 
             </div>
             <div className="text-center carousel-text-bold p-1">
-              Pedro Veglia, Fundador & CEO, PV Frutas & Hortalizas.
+              Facundo, Gerente, Arcoiris Frutas & Verduras
             </div>
           </div>
           <div className="carousel-item">
@@ -55,12 +53,10 @@ const Clientes = () => {
               <img src={line} className="line-image" alt="line" />
             </div>
             <div className="text-center carousel-text-light p-1">
-              Desde 2020 trabajamos con el sistema y la app de Fruit Software y
-              es todo un éxito. Agilizamos nuestra gestión de pedidos y
-              despachos de producto.
+            Con Fruit Software ahorramos tiempo en tareas administrativas, tengo toda la información y resultados del negocio en mi celular y además mejoró la experiencia de compra de nuestros clientes al tener nuestra propia App de pedidos.
             </div>
             <div className="text-center carousel-text-bold p-1">
-              Pedro Veglia, Fundador & CEO, PV Frutas & Hortalizas.
+            Damian Veliz, Co-Fundador, Veliz seleccion de Frutas & Hortalizas.
             </div>
           </div>
         </div>

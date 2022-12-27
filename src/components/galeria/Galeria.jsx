@@ -11,12 +11,12 @@ import puesteros5 from "../../assets/puesteros5.jpeg";
 const Galeria = () => {
   return (
     <div id="galeria" className="container-fluid p-2 galeria text-center">
-        <div className="d-flex justify-content-start galeria-subtitle-styles m-0">
+        <div className="d-flex justify-content-center galeria-subtitle-styles m-0">
         GALERIA
       </div>
-      {/* <div className="d-flex justify-content-center">
-        <div className="galeria_divider"></div>
-      </div> */}
+      <div className="d-flex justify-content-center">
+        <div className="divider"></div>
+      </div>
       <div
         id="carouselExampleIndicators"
         className="carousel slide  carousel-dark p-5 my-1"

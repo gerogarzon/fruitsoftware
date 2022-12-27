@@ -22,16 +22,23 @@ const Navbar = () => {
         window.addEventListener("scroll", changeBackground)
       })
 
+      const changeClass = ()=>{
+        const button = document.getElementById("burger-menu");
+        button.classList.remove("navbar-container")
+        button.classList.add("burger-menu")
+      }
+
   return (
     <>
-      <div className={navbar ? "navbar-active" : "navbar-container"}>
+      <div  id="burger-menu" className={navbar ? "navbar-active" : "navbar-container"}>
         <nav className="navbar navbar-dark navbar-expand-lg px-4">
           <div className="container-fluid p-0">
             <a className="navbar-brand text-white m-0 py-2 mx-4 " href="/">
               <img className="logo-navbar" src={navbar ? logo2 : logo} alt="logo" />
             </a>
-            <button
+            <button  
               className="navbar-toggler"
+              onclick={()=>changeClass()}
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarNavAltMarkup"
@@ -78,11 +85,11 @@ const Navbar = () => {
                   <Typewriter
                       options={{
                         strings: [
-                        '<h2 style="font-size:50px;color:#fff; text-align: center;"><span style="color: #f1d302;">AHORRÁ</span> </br>HORAS DE <span style="color: #f1d302;">TRABAJO</span> </h2>',
-                        '<h2 style="font-size:50px;color:#fff; text-align: center;"><span style="color: #f1d302;">MEJORÁ EL CONTROL</span></br>DE TU PUESTO </br>O VERDULERIA</h2>', 
-                        '<h2 style="font-size:50px;color:#fff; text-align: center;">PENSÁ EN LA  <br/><span style="color: #f1d302;">EXPERIENCIA DE COMPRA </span> </br>DE TUS CLIENTES</h2>',
-                        '<h2 style="font-size:50px;color:#fff; text-align: center;"><span style="color: #f1d302;">AUMENTÁ</span> TUS VENTAS</h2>',
-                        '<h2 style="font-size:50px;color:#fff; text-align: center;"><span style="color: #f1d302;">ENFOCATE EN LA CALIDAD</span></br> DE TUS PRODUCTOS </br> Y EN TU SERVICIO</h2>'
+                        '<h2 style="font-size:40px;color:#fff; text-align: center;"><span style="color: #f1d302;">AHORRÁ</span> HORAS DE <span style="color: #f1d302;">TRABAJO</span> </h2>',
+                        '<h2 style="font-size:40px;color:#fff; text-align: center;"><span style="color: #f1d302;">MEJORÁ EL CONTROL</span><br>DE TU PUESTO O VERDULERIA</h2>', 
+                        '<h2 style="font-size:40px;color:#fff; text-align: center;">PENSÁ EN LA <span style="color: #f1d302;"><br>EXPERIENCIA DE COMPRA </span><br> DE TUS CLIENTES</h2>',
+                        '<h2 style="font-size:40px;color:#fff; text-align: center;"><span style="color: #f1d302;">AUMENTÁ</span> TUS VENTAS</h2>',
+                        '<h2 style="font-size:40px;color:#fff; text-align: center;"><span style="color: #f1d302;">ENFOCATE EN LA CALIDAD</span><br> DE TUS PRODUCTOS  Y EN TU SERVICIO</h2>'
                       ],
                         autoStart: true,
                         loop: true,

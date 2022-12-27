@@ -1,187 +1,266 @@
-
-.divider{
-    width:320px;
-    height:1px;
-    background-color: #c9c9c9;
+.divider {
+  width: 280px;
+  height: 1px;
+  background-color: #c9c9c9;
 }
-.title-styles{
+.title-styles {
+  color: #297373;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 47px;
+  font-family: "Raleway", sans-serif;
+}
+.subtitle-styles {
+  color: #93bedf;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+.subtitle-styles-2 {
+  color: #93bedf;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+.text-styles {
+  color: #707070;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 17px;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+.card {
+  border: 2px solid #707070;
+  margin: 20px;
+  padding: 30px;
+  width: 340px;
+  height: 300px;
+}
+.card:hover {
+  border: 2px solid #df8600;
+}
+.card-image {
+  object-fit: contain;
+  width: fit-content;
+  height: fit-content;
+}
+.funciones {
+  width: 100%;
+  background-image: url(../../assets/funciones.png);
+  background-size: cover;
+  background-position: center center;
+}
+.funciones_text {
+  padding: 0 150px;
+}
+.computadoras {
+  object-fit: cover;
+  max-width: 90%;
+  max-height: 700px;
+}
+.infografia {
+  max-width: 400px;
+  max-height: 300px;
+}
+.subtitle-infografia {
+  color: #00cec3;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 17px;
+}
+.text-infografia {
+  color: #707070;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 15px;
+}
+.infografia1 {
+  background-image: url(../../assets/infografia1-bg.png) !important;
+  background-size: 100% 90%;
+  background-position: center center;
+}
+.hidden_child {
+  display: none;
+  margin-bottom: 0px !important;
+}
+.hidden_parent:hover .hidden_child {
+  display: inline-block;
+}
+.hidden_parent:hover .infografia {
+  transform: scale(1.08);
+}
+.infografia-container {
+  min-height: 450px;
+}
+.bg-particles {
+  background-image: linear-gradient(
+      rgba(41, 115, 115, 0.8),
+      rgba(41, 115, 115, 0.8)
+    ),
+    url(../../assets/particles.png);
+  background-size: cover;
+  background-position: center center;
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+}
+
+.personaliza {
+  text-align: left;
+  padding-left: 80px;
+  padding-top: 80px;
+  background-image: url(../../assets/personaliza.jpg);
+  background-size: contain;
+  min-height: 750px;
+}
+.personaliza_text {
+  font-size: 45px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  color: #93bedf;
+}
+.personaliza:hover {
+  text-align: left;
+  padding-left: 80px;
+  padding-top: 80px;
+  background-image: url(../../assets/personaliza2.jpg);
+  background-size: contain;
+  min-height: 750px;
+}
+.personaliza:hover .personaliza_text {
+  font-size: 45px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+}
+.funcionalidades_container {
+  padding-bottom: 50px;
+}
+.funcionalidades_container .row {
+  padding: 0px 45px;
+}
+/* svg {
+    min-width:75px;
+    min-height:75px;
+} */
+.servicios {
+  background-image: linear-gradient(
+      rgba(41, 115, 115, 0.8),
+      rgba(41, 115, 115, 0.8)
+    ),
+    url(../../assets/servicios-bg.jpg);
+  background-size: fill;
+  background-position: center center;
+  padding: 50px 50px;
+}
+.servicios_svg {
+  max-height: 150px;
+}
+.servicios_titles {
+  color: #f0d200;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.list_items {
+  color: #fff;
+  text-align: justify;
+}
+.preguntas {
+  padding: 50px 40px;
+  background-image: url(../../assets/funciones.png);
+  background-size: cover;
+  background-position: center center;
+}
+.preguntas1 {
+  max-width: 700px;
+}
+.preguntas2 {
+  display: none;
+}
+.preguntas_parent:hover .preguntas1 {
+  display: none;
+}
+.preguntas_parent:hover .preguntas2 {
+  display: block;
+  max-width: 700px;
+}
+.preguntas_title {
+  color: #93bedf;
+  font-weight: bold;
+  text-align: left;
+  font-family: "Raleway", sans-serif;
+}
+.preguntas_text {
+  color: #707070;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+}
+@media (max-width: 768px) {
+  .subtitle-styles-2 {
+    color: #00cec3;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: 8px;
+  }
+  .title-styles {
     color: #297373;
     font-weight: 700;
-    font-size:30px;
-    line-height: 47px;
-    font-family: 'Raleway', sans-serif;
-}
-.subtitle-styles{
-    color: #93bedf;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size:20px;
-    line-height:24px;
-}
-.subtitle-styles-2{
-    color: #93bedf;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    font-size:20px;
-    letter-spacing:3px;
-}
-.text-styles{
-    color: #707070;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    line-height:20px;
-    font-size:17px;
-}
-.card-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 35px;
-}
-.card{
-    border:2px solid #707070; 
-    margin:20px;
-    padding:30px;
-    width:340px;
-    height:300px;
-}
-.card:hover{
-    border: 2px solid #df8600; 
-}
-.card-image{
-    object-fit: contain;
-    width:fit-content;
-    height: fit-content;
-}
-.funciones{
-    width: 100%;
-    background-image:url(../../assets/funciones.png);
-    background-size: cover;
-    background-position: center center;
-}
-.funciones_text{
-    padding: 0 150px;
-}
-@media (max-width:768px){
-    .subtitle-styles-2{
-        color: #00cec3;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 700;
-        font-size:17px;
-        letter-spacing: 8px;
-    }
-    .title-styles{
-        color: #297373;
-        font-weight: 700;
-        font-size:30px;
-        line-height: 30px;
-        font-family: 'Raleway', sans-serif;
-    }
-    .card{
-        border:2px solid #707070; 
-        margin:10px;
-        padding:30px 0px;
-        width:300px;
-        height:270px;
-    }
-    .card-image{
-        width: 90px !important;
-        height:90px !important;
-    }
-    .subtitle-styles{
-        color: #00cec3;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 700;
-        font-size:17px;
-        line-height:17px;
-    }
-    .text-styles{
-        color: #707070;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 400;
-        line-height:20px;
-        font-size:15px;
-    }
-}
-.computadoras{
-    object-fit:cover;
-    max-width: 90%;
-    max-height: 700px;
-}
-.infografia{
-    max-width:400px; 
-    max-height: 300px;
-}
-.subtitle-infografia{
+    font-size: 30px;
+    line-height: 30px;
+    font-family: "Raleway", sans-serif;
+  }
+  .card {
+    border: 2px solid #707070;
+    margin: 10px;
+    padding: 30px 0px;
+    width: 300px;
+    height: 270px;
+  }
+  .card-image {
+    width: 90px !important;
+    height: 90px !important;
+  }
+  .subtitle-styles {
     color: #00cec3;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 700;
-    font-size:17px;
-    line-height:17px;
-}
-.text-infografia{
+    font-size: 17px;
+    line-height: 17px;
+  }
+  .text-styles {
     color: #707070;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 400;
-    line-height:20px;
-    font-size:15px;
-}
-.infografia1{ 
-    background-image: url(../../assets/infografia1-bg.png)!important;
-    background-size: 100% 90%;
-    background-position: center center; 
-}
-.hidden_child{
-    display: none;
-    margin-bottom:0px!important;
-}
-.hidden_parent:hover  .hidden_child{
-    display:inline-block;
-}
-.hidden_parent:hover .infografia{
-    transform:scale(1.08)
-}
-.infografia-container{
-    min-height: 450px;
-}
-.bg-particles{
-    background-image:linear-gradient(
-        rgba(41, 115, 115, 0.8), 
-        rgba(41, 115, 115, 0.8)
-      ),url(../../assets/particles.png); 
-      background-size: cover;
-      background-position: center center;   
-}
-
-.personaliza{
-    text-align:left;
-    padding-left: 80px;
-    padding-top: 80px;
+    line-height: 20px;
+    font-size: 15px;
+  }
+  .funciones_text {
+    padding: 0 10px;
+  }
+  .personaliza {
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 40px;
     background-image: url(../../assets/personaliza.jpg);
-    background-size:contain;
+    background-size: cover;
     min-height: 750px;
-}
-.personaliza_text{
-    font-size:45px;
+  }
+  .personaliza_text {
+    font-size: 25px;
     font-weight: bold;
-    font-family: 'Raleway', sans-serif;
-    color: #00CEC3;
-}
-.personaliza:hover{
-    text-align:left;
-    padding-left: 80px;
-    padding-top: 80px;
-    background-image: url(../../assets/personaliza2.jpg);
-    background-size:contain;
-    min-height: 750px;
-}
-.personaliza:hover .personaliza_text{
-    font-size:45px;
-    font-weight: bold;
-    font-family: 'Raleway', sans-serif;
-    color: #fff;
-}
-.funcionalidades_container .row{
-    padding:50px 150px;
+    font-family: "Raleway", sans-serif;
+    color: #93bedf;
+  }
 }

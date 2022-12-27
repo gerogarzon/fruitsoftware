@@ -8,12 +8,11 @@
     background-attachment: fixed;
 }
 .sobrenosotros-title-styles{
-    color: #00cec3;
+    color: #93bedf;
     font-family: 'Montserrat', sans-serif;
     font-style: bold;
     font-size:20px;
-    line-height:24px;
-    letter-spacing: 15px;
+    letter-spacing: 2px;
 }
 .sobrenosotros-subtitle-styles{
     color:#297373;
@@ -39,14 +38,14 @@
     background-image:url(../../assets/funciones.png);
 }
 .sector-image{
-    max-width:250px;
-    max-height:250px;
+    max-width:200px;
+    max-height:200px;
 }
 .elipse{
     background-color: #ffffff;
-    width: 300px;
-    height:300px;
-    border-radius:300px;
+    width: 250px;
+    height:250px;
+    border-radius:250px;
     border: 2px solid #707070;
     display:flex;
     justify-content: center;
@@ -83,6 +82,18 @@
     font-size:17px;
     font-weight: normal;
     line-height:21px;
+}
+.parent_hidden{
+    min-height: 410px;
+}
+.child_hidden{
+    display:none;
+    color: #707070 !important;
+    font-size: 15px;
+}
+.parent_hidden:hover .child_hidden{
+    display:block;
+
 }
 @media (max-width: 768px) {
     .sobrenosotros-title-styles{

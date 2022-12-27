@@ -14,10 +14,10 @@
 }
 .green-col{
     background-image: linear-gradient(
-        rgba(75, 190, 123, 0.8), 
-        rgba(76, 207, 131, 0.8)
+        rgba(75, 190, 123, 0.6), 
+        rgba(76, 207, 131, 0.6)
       ),url(../../assets/col-green.png);
-      background-size: fill;
+      background-size: auto;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -32,12 +32,13 @@
 .footer{
     background-image: url(../../assets/footer.png);
     background-color: #297373;
+    background-size: cover;
     height:100%;
     width:100%;
 }
 .logo-vertical{
-    max-height: 180px;
-    max-width: 180px;
+    max-height: 300px;
+    max-width: 300px;
 }
 .footer-titles{
     color: #ffffff;

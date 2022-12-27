@@ -16,28 +16,30 @@ const SobreNosotros = () => {
     <div id="sobrenosotros">
 
        <div className="container-fluid text-center sobrenosotros">
-        <h2 className="sobrenosotros-title-styles pb-4">SOBRE NOSOTROS</h2>
+        <h2 className="sobrenosotros-title-styles pb-2">SOBRE NOSOTROS</h2>
         <div className="d-flex justify-content-center">
             <div className="divider"></div>
         </div>
-        <h3 className="subtitle_sobrenosotros py-5 px-2">Ayudar a los pequeños y grandes mercados frutihortícolas a lograr una gestión eficaz mediante el uso innovador dela tecnología.</h3>
-        <h5 className="text_sobrenosotros p-3">Creemos que el lápiz y el papel quedaron obsoletos en un mundo tan digitalizado, la organización y las plataformas integradas cambian las reglas del juego para nuestros clientes. Brindamos un sistema – software enfocado en optimizar y agilizar las horas de trabajo y gestión de los mercados y puestos frutihortícolas mediante la tecnología.</h5>
+        <h3 className="subtitle_sobrenosotros py-5 px-2">Ayudar a los pequeños y grandes mercados frutihortícolas a lograr una gestión eficaz mediante el uso innovador de la tecnología.</h3>
+        <h5 className="text_sobrenosotros p-3">Un equipo que desarrolló un sistema y una App personalizada con tu marca para que tus clientes carguen sus pedidos y que debido a la cantidad de interesados por esta nueva metología de trabajo, decidimos fundar Fruit Software™ y poner a disposición de todo mayorista o minorista frutihortícola esta tecnología para que sean más eficientes y además mejorar la experiencia de compra de sus clientes.</h5>
       </div>
       
       <div className="container-fluid sector text-center p-5">
-        <h2 className="sobrenosotros-title-styles py-5 px-">SECTOR EN EL QUE NOS ESPECIALIZAMOS</h2>
+        <h2 className="sobrenosotros-title-styles py-3">SECTOR EN EL QUE NOS ESPECIALIZAMOS</h2>
         <div className="d-flex justify-content-center">
             <div className="divider"></div>
         </div>
         <h3 className="sobrenosotros-subtitle-styles py-5">Lográ una ventaja competitiva en tu sector con nuestro sistema</h3>
         <div className="row align-items-center justify-content-center">
-            <div className="col-lg-4 p-0 d-flex flex-column justify-content-center align-items-center">
+            <div className="col-lg-4 p-0 d-flex flex-column justify-content-start align-items-center parent_hidden">
                <div className="elipse"><img src={mayorista} className="sector-image" alt="sector-mayorista"/></div> 
                <h4 className="mercados my-4">Mercados Mayoristas Frutihortícolas</h4>
+               <h3 className="child_hidden">Restaurantes, verdulerias, hospitales, empresas, hoteles, comedores, colegios. etc.</h3>
             </div>
-            <div className="col-lg-4 p-0 d-flex flex-column justify-content-center align-items-center">
+            <div className="col-lg-4 p-0 d-flex flex-column justify-content-start align-items-center parent_hidden">
                <div className="elipse"><img src={minorista} className="sector-image"alt="sector-minorista"/></div> 
                <h4 className="mercados my-4">Mercados Minoristas Frutihortícolas</h4>
+               <h3 className="child_hidden">Consumidor final, bares, puestos verduleros, etc.</h3>
             </div>
         </div>
       </div>

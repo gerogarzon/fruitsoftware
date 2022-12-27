@@ -30,7 +30,7 @@ const Footer = () => {
           <div className="col red-col py-5">
             <div className="row w-100 h-100 align-items-start justify-content-center">
               <div className="col">
-                <h5 className="text-white text-center">Mirá nuestra galería de fotos.</h5>
+                <h5 className="text-white text-center">Y mejora la experiencia con tu cliente<br></br> junto a la tecnologia!</h5>
               </div>
               {/* <div className="col">
                 <button className="btn btn-outline-warning contacto text-white">
@@ -48,8 +48,8 @@ const Footer = () => {
           </div>
           <div className="footer-col col-md-4 col-xs-12 p-0 d-flex flex-column justify-content-start align-content-center">
             <h4 className="footer-titles-2">LINKS RAPIDOS</h4>
-            <a className="footer-subtitles" href="#sobrenosotros">SOBRE NOSOTROS</a>
             <a className="footer-subtitles" href="#nuestroservicio">NUESTRO SERVICIO</a>
+            <a className="footer-subtitles" href="#sobrenosotros">SOBRE NOSOTROS</a>
             <a className="footer-subtitles" href="#clientes">CLIENTES</a>
             <a className="footer-subtitles" href="#galeria">GALERIA</a>
           </div>
