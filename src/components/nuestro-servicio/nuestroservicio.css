@@ -71,6 +71,9 @@
   max-width: 400px;
   max-height: 300px;
 }
+.puntitos{
+  max-width: 400px;
+}
 .subtitle-infografia {
   color: #00cec3;
   font-family: "Montserrat", sans-serif;
@@ -89,6 +92,9 @@
   background-image: url(../../assets/infografia1-bg.png) !important;
   background-size: 100% 90%;
   background-position: center center;
+}
+.fila-1{
+  display:none;
 }
 .hidden_child {
   display: none;
@@ -183,7 +189,8 @@
   background-position: center center;
 }
 .preguntas1 {
-  max-width: 700px;
+  max-width: 500px;
+  object-fit: fill;
 }
 .preguntas2 {
   display: none;
@@ -193,7 +200,7 @@
 }
 .preguntas_parent:hover .preguntas2 {
   display: block;
-  max-width: 700px;
+  max-width: 500px;
 }
 .preguntas_title {
   color: #93bedf;
@@ -211,15 +218,16 @@
     color: #00cec3;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
-    font-size: 17px;
+    font-size: 15px;
     letter-spacing: 8px;
   }
   .title-styles {
     color: #297373;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 22px;
     line-height: 30px;
     font-family: "Raleway", sans-serif;
+    padding-bottom: 10px;
   }
   .card {
     border: 2px solid #707070;
@@ -238,6 +246,7 @@
     font-weight: 700;
     font-size: 17px;
     line-height: 17px;
+    padding-bottom: 10px;
   }
   .text-styles {
     color: #707070;
@@ -249,12 +258,15 @@
   .funciones_text {
     padding: 0 10px;
   }
+  .funcionalidades_container .row {
+    padding: 0px 20px!important;
+  }
   .personaliza {
     text-align: left;
     padding-left: 40px;
     padding-top: 40px;
     background-image: url(../../assets/personaliza.jpg);
-    background-size: cover;
+    background-size: 3/2;
     min-height: 750px;
   }
   .personaliza_text {
@@ -262,5 +274,52 @@
     font-weight: bold;
     font-family: "Raleway", sans-serif;
     color: #93bedf;
+  }
+  .columna-1{
+    display: none;
+  }
+  .hidden_child{
+    display:block;
+  }
+  .columna-2{
+    display: none;
+  }
+  .fila-1{
+    display:block;
+  }
+  .puntitos_recto{
+    max-height: 150px;
+  }
+  .infografia {
+    max-width: 300px;
+    max-height: 300px;
+  }
+  .servicios {
+    background-image: linear-gradient(
+        rgba(41, 115, 115, 0.8),
+        rgba(41, 115, 115, 0.8)
+      ),
+      url(../../assets/servicios-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 50px 50px;
+  }
+  .preguntas1 {
+    max-width: 350px;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+  }
+  .preguntas_title {
+    font-size: 17px;
+    color: #93bedf;
+    font-weight: bold;
+    text-align: left;
+    font-family: "Raleway", sans-serif;
+  }
+  .preguntas_text {
+    color: #707070;
+    font-size: 15px;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
   }
 }

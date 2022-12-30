@@ -129,4 +129,20 @@
     .copyright{
         font-size:13px;
     }
+    .footer-titles{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 7px;
+    }
+    .footer-title-styles{
+        color: #F1D302;
+        font-size: 19px;
+        margin-bottom: 20px;
+        z-index: 100;
+    }
+    .footer-subtitle-styles{
+        color: #FFFFFF;
+        font-size: 17px;
+        z-index: 100;
+    }
 }

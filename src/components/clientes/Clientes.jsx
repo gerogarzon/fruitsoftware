@@ -44,7 +44,7 @@ const Clientes = () => {
             Desde que comenzamos a utilizar FruitSoftware el negocio ha mejorado enormemente y los clientes estan muy contentos. Recomendaría este software a cualquier otro empresario que busque una solución de gestión efectiva. 
             </div>
             <div className="text-center carousel-text-bold p-1">
-              Facundo, Gerente, Arcoiris Frutas & Verduras
+              Angel, Gerente, Arcoiris Frutas & Verduras
             </div>
           </div>
           <div className="carousel-item">

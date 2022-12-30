@@ -24,7 +24,7 @@ const SobreNosotros = () => {
         <h5 className="text_sobrenosotros p-3">Un equipo que desarrolló un sistema y una App personalizada con tu marca para que tus clientes carguen sus pedidos y que debido a la cantidad de interesados por esta nueva metología de trabajo, decidimos fundar Fruit Software™ y poner a disposición de todo mayorista o minorista frutihortícola esta tecnología para que sean más eficientes y además mejorar la experiencia de compra de sus clientes.</h5>
       </div>
       
-      <div className="container-fluid sector text-center p-5">
+      <div className="container-fluid sector text-center py-5 px-2">
         <h2 className="sobrenosotros-title-styles py-3">SECTOR EN EL QUE NOS ESPECIALIZAMOS</h2>
         <div className="d-flex justify-content-center">
             <div className="divider"></div>

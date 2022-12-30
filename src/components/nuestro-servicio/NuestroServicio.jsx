@@ -3,6 +3,7 @@ import React from "react";
 import infografia1 from "../../assets/infografia1.png";
 import puntitos_izq from "../../assets/puntitos_izq.png";
 import puntitos_der from "../../assets/puntitos_der.png";
+import puntitos_recto from "../../assets/puntitos_recto.png";
 import infografia2 from "../../assets/infografia2.png";
 import infografia3 from "../../assets/infografia3.png";
 import computadoras from "../../assets/computadoras.png";
@@ -14,7 +15,7 @@ import "./nuestroservicio.css";
 const NuestroServicio = () => {
   return (
     <div id="nuestroservicio" className="container-fluid p-0 text-center">
-      <div className="funciones">
+      <div className="funciones px-2">
         <img className="computadoras" src={computadoras} alt="logo" />
         <h2 className="title-styles">
           Modernizá tu mercado con nuestro servicio
@@ -32,11 +33,11 @@ const NuestroServicio = () => {
           cualquier lugar y desde cualquier dispositivo conectado a la red.
         </p>
       </div>
-      <div className="row mt-5">
-        <div className="col px-0">
+      <div className="row my-4 ">
+        <div className="col-12 col-sm-4 px-0 columna-1">
           <img className="puntitos" src={puntitos_izq} alt="puntos" />
         </div>
-        <div className="col px-0 hidden_parent">
+        <div className="col-12 col-sm-4  px-0 hidden_parent">
           <img
             className="infografia infografia1"
             src={infografia1}
@@ -51,12 +52,15 @@ const NuestroServicio = () => {
             </p>
           </div>
         </div>
-        <div className="col puntitos px-0">
+        <div className="col-12 col-sm-4  px-0 columna-2">
           <img className="puntitos" src={puntitos_der} alt="puntos" />
         </div>
       </div>
-      <div className="row infografia-container">
-        <div className="col-6 hidden_parent">
+      <div className="fila-1">
+        <img className="puntitos_recto" src={puntitos_recto} alt="puntos" />
+      </div>
+      <div className="row infografia-container px-2 pb-4">
+        <div className="col-12 col-sm-6 hidden_parent">
           <img className="infografia" src={infografia2} alt="infografia" />
           <div className="hidden_child">
             <h3 className="subtitle-infografia pt-4">
@@ -69,7 +73,10 @@ const NuestroServicio = () => {
             </p>
           </div>
         </div>
-        <div className="col-6 hidden_parent">
+        <div className="fila-1">
+          <img className="puntitos_recto" src={puntitos_recto} alt="puntos" />
+        </div>
+        <div className="col-12 col-sm-6 hidden_parent">
           <img className="infografia" src={infografia3} alt="infografia" />
           <div className="hidden_child">
             <h3 className="subtitle-infografia pt-3">
@@ -89,7 +96,7 @@ const NuestroServicio = () => {
             Comenzá a transformar tu negocio para una mayor productividad.
           </h4>
           <h5 className="footer-subtitle-styles px-2">
-            Nosotros nos encargamos de la tecnología.
+            De manera rápida, sencilla y eficaz.
           </h5>
         </div>
       </div>
@@ -109,12 +116,12 @@ const NuestroServicio = () => {
         <div className="d-flex justify-content-center">
           <div className="divider"></div>
         </div>
-        <h3 className="title-styles pt-5 px-3 mb-2">
+        <h3 className="title-styles pt-5 px-0 mb-2">
           Nosotros nos ocupamos de la tecnología
         </h3>
 
-        <div className="row align-items-center justify-content-center">
-          <div className="col-6 col-sm-2 p-0 d-flex justify-content-center align-items-center">
+        <div className="row g-2 align-items-center justify-content-center">
+          <div className="col-5 col-sm-2 p-0 d-flex justify-content-center align-items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 200 200"
@@ -130,14 +137,14 @@ const NuestroServicio = () => {
               </g>
             </svg>
           </div>
-          <div className="col-6 col-sm-4 p-0">
+          <div className="col-7 col-sm-4 p-0 m-0">
             <div className="subtitle-styles p-0">Digitalidad</div>
             <p className="card-text text-styles py-1">
               Integrá la tecnología para crear nuevas experiencias en relación
               al mercado
             </p>
           </div>
-          <div className="col-6 col-sm-2 p-0 d-flex justify-content-center align-items-center">
+          <div className="col-5 col-sm-2 p-0 d-flex justify-content-center align-items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 200 200"
@@ -155,7 +162,7 @@ const NuestroServicio = () => {
               </g>
             </svg>
           </div>
-          <div className="col-6 col-sm-4 p-0">
+          <div className="col-7 col-sm-4 p-0 m-0">
             <div className="subtitle-styles p-0">Portabilidad</div>
             <p className="card-text text-styles py-1">
               Ingresá desde cualquier lugar. El sistema es compatible y
@@ -164,8 +171,8 @@ const NuestroServicio = () => {
           </div>
         </div>
 
-        <div className="row align-items-center justify-content-center">
-          <div className="col-6 col-sm-2 p-0 d-flex justify-content-center align-items-center">
+        <div className="row g-2 mt-2 align-items-center justify-content-center">
+          <div className="col-5 col-sm-2 p-0 d-flex justify-content-center align-items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 200 200"
@@ -180,14 +187,14 @@ const NuestroServicio = () => {
               </g>
             </svg>
           </div>
-          <div className="col-6 col-sm-4 p-0">
+          <div className="col-7 col-sm-4 p-0 m-0">
             <div className="subtitle-styles p-0">Gestión en Tiempo Real</div>
             <p className="card-text text-styles py-1">
               Total libertad del usuario de gestionar en tiempo real pedidos y
               compras, contorlar stock, revisar saldos, etc.
             </p>
           </div>
-          <div className="col-6 col-sm-2 p-0 d-flex justify-content-center align-items-center">
+          <div className="col-5 col-sm-2 p-0 d-flex justify-content-center align-items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 200 200"
@@ -203,7 +210,7 @@ const NuestroServicio = () => {
               </g>
             </svg>
           </div>
-          <div className="col-6 col-sm-4 p-0">
+          <div className="col-7 col-sm-4 p-0 m-0">
             <div className="subtitle-styles p-0">Personalización</div>
             <p className="card-text text-styles py-1">
               Personalizá la app para que tenga tu propia marca y así añadir
@@ -212,8 +219,8 @@ const NuestroServicio = () => {
           </div>
         </div>
 
-        <div className="row align-items-center justify-content-center">
-          <div className="col-6 col-sm-2 p-0 d-flex justify-content-center align-items-center">
+        <div className="row g-2 mt-2 align-items-center justify-content-center">
+          <div className="col-5 col-sm-2 p-0 d-flex justify-content-center align-items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 200 200"
@@ -230,7 +237,7 @@ const NuestroServicio = () => {
               </g>
             </svg>
           </div>
-          <div className="col-6 col-sm-4 p-0">
+          <div className="col-7 col-sm-4 p-0 m-0">
             <div className="subtitle-styles p-0">Seguridad y Fiabilidad</div>
             <p className="card-text text-styles py-1">
               Tus datos y operaciones se registran en la base de datos del
@@ -238,7 +245,7 @@ const NuestroServicio = () => {
             </p>
           </div>
 
-          <div className="col-6 col-sm-2 p-0 d-flex justify-content-center align-items-center">
+          <div className="col-5 col-sm-2 p-0 d-flex justify-content-center align-items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 200 200"
@@ -254,7 +261,7 @@ const NuestroServicio = () => {
               </g>
             </svg>
           </div>
-          <div className="col-6 col-sm-4 p-0">
+          <div className="col-7 col-sm-4 p-0 m-0">
             <div className="subtitle-styles p-0">Optimización</div>
             <p className="card-text text-styles py-1">
               Optimizá recursos humanos, trabajo y tu tiempo
@@ -387,8 +394,8 @@ const NuestroServicio = () => {
         </div>
         <div className="row">
           <div className="preguntas_parent col-12 col-sm-5">
-            <img className="preguntas1" src={preguntas1} alt="logo"/>
-            <img className="preguntas2" src={preguntas2} alt="logo"/>
+            <img className="preguntas1" src={preguntas1} alt="logo" />
+            <img className="preguntas2" src={preguntas2} alt="logo" />
           </div>
           <div className="col-12 col-sm-7">
             <div className="preguntas_title pb-2">
@@ -398,9 +405,9 @@ const NuestroServicio = () => {
             <div className="preguntas_text pb-2">
               Por supuesto, vas a llegar al consumidor final a través de la
               tecnología y vas a lograr fidelizar ese cliente que elige la
-              comodidad de pedir desde <b>TU APP</b>, pagar y recibir en domicilio.
-              También podrá retirar en tu tienda. Además, vas a evitar
-              comisiones excesivas de plataformas de terceros.
+              comodidad de pedir desde <b>TU APP</b>, pagar y recibir en
+              domicilio. También podrá retirar en tu tienda. Además, vas a
+              evitar comisiones excesivas de plataformas de terceros.
             </div>
             <div className="preguntas_title pb-2">
               ¿O sea que podré tener un sistema para mi negocio y además una App
@@ -408,10 +415,11 @@ const NuestroServicio = () => {
             </div>
             <div className="preguntas_text pb-2">
               Exacto, un sistema específico para el rubro frutihortícola. Si
-              tienes un <b>PUESTO MAYORISTA</b> o una <b>VERDULERIA MINORISTA</b>, el sistema
-              te permitirá ver los pedidos a entregar a domicilio o a retirar en
-              tu tienda, podrás ver los saldos de cuentas corrientes, tus ventas
-              y resultados, tus compras, etc.
+              tienes un <b>PUESTO MAYORISTA</b> o una{" "}
+              <b>VERDULERIA MINORISTA</b>, el sistema te permitirá ver los
+              pedidos a entregar a domicilio o a retirar en tu tienda, podrás
+              ver los saldos de cuentas corrientes, tus ventas y resultados, tus
+              compras, etc.
             </div>
             <div className="preguntas_title pb-2">
               ¿Por qué moderno y sencillo?
