@@ -22,11 +22,6 @@ const Navbar = () => {
     window.addEventListener("scroll", changeBackground);
   });
 
-  // const changeClass = () => {
-  //   const button = document.getElementById("burger-menu");
-  //   button.classList.remove("navbar-container");
-  //   button.classList.add("burger-menu");
-  // };
 
   return (
     <>
@@ -51,7 +46,6 @@ const Navbar = () => {
             </a>
             <button
               className="navbar-toggler mx-2"
-              // onclick={() => changeClass()}
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarNavAltMarkup"
