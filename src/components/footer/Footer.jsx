@@ -13,7 +13,7 @@ const Footer = () => {
       
       <div>
         <div className="row">
-          <div className="col green-col py-5">
+          <div className="col-12 col-sm-6 green-col py-5">
             <div className="row w-100 h-100 align-items-start justify-content-center">
               <div className="col">
                 <h5 className="text-white text-center">
@@ -27,7 +27,7 @@ const Footer = () => {
               </div> */}
             </div>
           </div>
-          <div className="col red-col py-5">
+          <div className="col-12 col-sm-6 red-col py-5">
             <div className="row w-100 h-100 align-items-start justify-content-center">
               <div className="col">
                 <h5 className="text-white text-center">Y mejora la experiencia con tu cliente<br></br> junto a la tecnologia!</h5>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import infografia1 from "../../assets/infografia1.png";
 import puntitos_izq from "../../assets/puntitos_izq.png";
@@ -9,10 +9,16 @@ import infografia3 from "../../assets/infografia3.png";
 import computadoras from "../../assets/computadoras.png";
 import preguntas1 from "../../assets/preguntas1.png";
 import preguntas2 from "../../assets/preguntas2.png";
+import see from "../../assets/see.png";
 
 import "./nuestroservicio.css";
 
 const NuestroServicio = () => {
+  const [isActive, setIsActive] = useState(false);
+
+  const handleClick = (event) => {
+    setIsActive((current) => !current);
+  };
   return (
     <div id="nuestroservicio" className="container-fluid p-0 text-center">
       <div className="funciones px-2">
@@ -101,12 +107,23 @@ const NuestroServicio = () => {
         </div>
       </div>
 
-      <div className="personaliza">
-        <p className="personaliza_text">
+      <div className={isActive ? "personaliza2" : "personaliza"}>
+        <p className={isActive ? "personaliza_text2" : "personaliza_text"}>
           PERSONALIZÁ <br></br>
           LA APP CON <br></br>
           TU MARCA
         </p>
+        <button
+          type="button"
+          className={
+            isActive
+              ? "btn btn-primary personaliza_btn"
+              : "btn btn-primary personaliza_btn"
+          }
+          onClick={handleClick}
+        >
+          <img src={see} className="eye" alt="eye" />
+        </button>
       </div>
 
       <div className="funcionalidades_container">

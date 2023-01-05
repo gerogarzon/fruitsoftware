@@ -96,10 +96,10 @@
 .fila-1{
   display:none;
 }
-.hidden_child {
+/* .hidden_child {
   display: none;
   margin-bottom: 0px !important;
-}
+} */
 .hidden_parent:hover .hidden_child {
   display: inline-block;
 }
@@ -117,7 +117,7 @@
     url(../../assets/particles.png);
   background-size: cover;
   background-position: center center;
-  min-height: 250px;
+  min-height: 200px;
   display: flex;
   align-items: center;
 }
@@ -130,36 +130,58 @@
   background-size: contain;
   min-height: 750px;
 }
+.personaliza2{
+  text-align: left;
+  padding-left: 25px;
+  padding-top: 25px;
+  background-image: url(../../assets/personaliza2.jpg);
+  background-size: cover;
+  min-height: 300px;
+}
 .personaliza_text {
   font-size: 45px;
   font-weight: bold;
   font-family: "Raleway", sans-serif;
   color: #93bedf;
+ 
 }
-.personaliza:hover {
-  text-align: left;
-  padding-left: 80px;
-  padding-top: 80px;
-  background-image: url(../../assets/personaliza2.jpg);
-  background-size: contain;
-  min-height: 750px;
-}
-.personaliza:hover .personaliza_text {
-  font-size: 45px;
+.personaliza_text2 {
+  font-size: 20px;
   font-weight: bold;
   font-family: "Raleway", sans-serif;
   color: #fff;
+  margin-bottom: 8px;
 }
+.personaliza_btn{
+  display: none;
+}
+.personaliza_btn:focus{
+  background-color: #93bedf!important;
+}
+
+@media (hover: hover) {
+  .personaliza:hover {
+    text-align: left;
+    padding-left: 80px;
+    padding-top: 80px;
+    background-image: url(../../assets/personaliza2.jpg);
+    background-size: contain;
+    min-height: 750px;
+  }
+  .personaliza:hover .personaliza_text {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    color: #fff;
+  }
+}
+
 .funcionalidades_container {
   padding-bottom: 50px;
 }
 .funcionalidades_container .row {
   padding: 0px 45px;
 }
-/* svg {
-    min-width:75px;
-    min-height:75px;
-} */
 .servicios {
   background-image: linear-gradient(
       rgba(41, 115, 115, 0.8),
@@ -214,6 +236,9 @@
   font-family: "Montserrat", sans-serif;
 }
 @media (max-width: 768px) {
+  .funcionalidades_container {
+    display: none;
+  }
   .subtitle-styles-2 {
     color: #00cec3;
     font-family: "Montserrat", sans-serif;
@@ -263,17 +288,27 @@
   }
   .personaliza {
     text-align: left;
-    padding-left: 40px;
-    padding-top: 40px;
+    padding-left: 25px;
+    padding-top: 25px;
     background-image: url(../../assets/personaliza.jpg);
-    background-size: 3/2;
-    min-height: 750px;
+    background-size: cover;
+    min-height: 300px;
   }
   .personaliza_text {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     font-family: "Raleway", sans-serif;
     color: #93bedf;
+    margin-bottom: 8px;
+  }
+  .personaliza_btn{
+    display: block;
+    background-color: #93bedf;
+    border: none!important;
+    width: 75px;
+  }
+  .eye{
+    max-height: 30px;
   }
   .columna-1{
     display: none;
