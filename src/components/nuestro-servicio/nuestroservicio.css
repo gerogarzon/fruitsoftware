@@ -217,13 +217,17 @@
 .preguntas2 {
   display: none;
 }
-.preguntas_parent:hover .preguntas1 {
-  display: none;
+
+@media (hover: hover) {
+  .preguntas_parent:hover .preguntas1 {
+    display: none;
+  }
+  .preguntas_parent:hover .preguntas2 {
+    display: block;
+    max-width: 500px;
+  }
 }
-.preguntas_parent:hover .preguntas2 {
-  display: block;
-  max-width: 500px;
-}
+
 .preguntas_title {
   color: #93bedf;
   font-weight: bold;
