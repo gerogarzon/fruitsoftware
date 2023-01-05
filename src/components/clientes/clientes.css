@@ -28,14 +28,13 @@
 }
 @media (max-width: 768px){
     .clientes-subtitle-styles{
-        color: #00cec3;
+        color: #93bedf;
         font-family: 'Montserrat', sans-serif;
         font-weight: 700;
         font-size:17px;
         line-height:24px;
         letter-spacing:5px;
-        margin:30px;
-        padding:30px;
+        
     }
     .clientes-images{
         width:150px!important;

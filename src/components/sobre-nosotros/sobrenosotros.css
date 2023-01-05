@@ -99,17 +99,17 @@
 }
 @media (max-width: 768px) {
     .sobrenosotros-title-styles{
-        color: #00cec3;
+        color: #93bedf;
         font-family: 'Montserrat', sans-serif;
         font-style: bold;
-        font-size:25px;
+        font-size:20px;
         letter-spacing: 0px;
     }
     .sobrenosotros-subtitle-styles{
         color:#297373;
         font-family: 'Raleway', sans-serif;
         font-weight: 700;
-        font-size:27px;
+        font-size:20px;
         line-height:35px;
     }
     .sobrenosotros{
