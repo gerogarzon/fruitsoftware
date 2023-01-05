@@ -39,7 +39,7 @@ const NuestroServicio = () => {
           cualquier lugar y desde cualquier dispositivo conectado a la red.
         </p>
       </div>
-      <div className="row my-4 ">
+      <div className="row mx-2 my-4 ">
         <div className="col-12 col-sm-4 px-0 columna-1">
           <img className="puntitos" src={puntitos_izq} alt="puntos" />
         </div>
@@ -65,8 +65,8 @@ const NuestroServicio = () => {
       <div className="fila-1">
         <img className="puntitos_recto" src={puntitos_recto} alt="puntos" />
       </div>
-      <div className="row infografia-container px-2 pb-4">
-        <div className="col-12 col-sm-6 hidden_parent">
+      <div className="row infografia-container mx-2 pb-4">
+        <div className="col-12 col-sm-6 hidden_parent p-0">
           <img className="infografia" src={infografia2} alt="infografia" />
           <div className="hidden_child">
             <h3 className="subtitle-infografia pt-4">
@@ -82,7 +82,7 @@ const NuestroServicio = () => {
         <div className="fila-1">
           <img className="puntitos_recto" src={puntitos_recto} alt="puntos" />
         </div>
-        <div className="col-12 col-sm-6 hidden_parent">
+        <div className="col-12 col-sm-6 hidden_parent p-0">
           <img className="infografia" src={infografia3} alt="infografia" />
           <div className="hidden_child">
             <h3 className="subtitle-infografia pt-3">
