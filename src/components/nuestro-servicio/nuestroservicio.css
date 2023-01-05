@@ -45,9 +45,12 @@
   width: 340px;
   height: 300px;
 }
-.card:hover {
-  border: 2px solid #df8600;
+@media (hover: hover) {
+  .card:hover {
+    border: 2px solid #df8600;
+  }
 }
+
 .card-image {
   object-fit: contain;
   width: fit-content;
@@ -71,7 +74,7 @@
   max-width: 400px;
   max-height: 300px;
 }
-.puntitos{
+.puntitos {
   max-width: 400px;
 }
 .subtitle-infografia {
@@ -93,19 +96,18 @@
   background-size: 100% 90%;
   background-position: center center;
 }
-.fila-1{
-  display:none;
-}
-/* .hidden_child {
+.fila-1 {
   display: none;
-  margin-bottom: 0px !important;
-} */
-.hidden_parent:hover .hidden_child {
-  display: inline-block;
 }
-.hidden_parent:hover .infografia {
-  transform: scale(1.08);
+@media (hover: hover) {
+  .hidden_parent:hover .hidden_child {
+    display: inline-block;
+  }
+  .hidden_parent:hover .infografia {
+    transform: scale(1.08);
+  }
 }
+
 .infografia-container {
   min-height: 450px;
 }
@@ -130,7 +132,7 @@
   background-size: contain;
   min-height: 750px;
 }
-.personaliza2{
+.personaliza2 {
   text-align: left;
   padding-left: 25px;
   padding-top: 25px;
@@ -143,7 +145,6 @@
   font-weight: bold;
   font-family: "Raleway", sans-serif;
   color: #93bedf;
- 
 }
 .personaliza_text2 {
   font-size: 20px;
@@ -152,11 +153,15 @@
   color: #fff;
   margin-bottom: 8px;
 }
-.personaliza_btn{
+.personaliza_btn {
   display: none;
 }
-.personaliza_btn:focus{
-  background-color: #93bedf!important;
+
+.personaliza_btn:focus {
+  background-color: #93bedf !important;
+}
+.personaliza_btn:active {
+  background-color: #93bedf !important;
 }
 
 @media (hover: hover) {
@@ -175,7 +180,6 @@
     color: #fff;
   }
 }
-
 .funcionalidades_container {
   padding-bottom: 50px;
 }
@@ -288,7 +292,7 @@
     padding: 0 10px;
   }
   .funcionalidades_container .row {
-    padding: 0px 20px!important;
+    padding: 0px 20px !important;
   }
   .personaliza {
     text-align: left;
@@ -305,28 +309,28 @@
     color: #93bedf;
     margin-bottom: 8px;
   }
-  .personaliza_btn{
+  .personaliza_btn {
     display: block;
     background-color: #93bedf;
-    border: none!important;
+    border: none !important;
     width: 75px;
   }
-  .eye{
+  .eye {
     max-height: 30px;
   }
-  .columna-1{
+  .columna-1 {
     display: none;
   }
-  .hidden_child{
-    display:block;
+  .hidden_child {
+    display: block;
   }
-  .columna-2{
+  .columna-2 {
     display: none;
   }
-  .fila-1{
-    display:block;
+  .fila-1 {
+    display: block;
   }
-  .puntitos_recto{
+  .puntitos_recto {
     max-height: 150px;
   }
   .infografia {

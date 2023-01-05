@@ -51,9 +51,12 @@
     justify-content: center;
     align-items: center;
 }
-.elipse:hover{
-    border: 2px solid #df8600;
-}
+@media (hover: hover) {
+    .elipse:hover{
+        border: 2px solid #df8600;
+    }
+  }
+
 .mercados{
     font-weight: 700;
     font-size:22px;
@@ -61,9 +64,12 @@
     color:#297373;
     max-width:276px;
 }
-.elipse:hover + .mercados{
-    opacity: 0.7;
-}
+@media (hover: hover) {
+    .elipse:hover + .mercados{
+        opacity: 0.7;
+    }
+  }
+
 .sobrenosotros{
     background-image: url(../../assets/sobrenosotros.png);
     background-size: 100vw 100%;
@@ -91,12 +97,15 @@
     color: #707070 !important;
     font-size: 15px;
 }
-.parent_hidden:hover .child_hidden{
-    display:block;
-}
-.parent_hidden:hover .mercados{
-    color:#df8600;  
-}
+@media (hover: hover) {
+    .parent_hidden:hover .child_hidden{
+        display:block;
+    }
+    .parent_hidden:hover .mercados{
+        color:#df8600;  
+    }
+  }
+
 @media (max-width: 768px) {
     .sobrenosotros-title-styles{
         color: #93bedf;
