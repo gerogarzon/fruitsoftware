@@ -92,9 +92,6 @@
         z-index:10;
         height: 100vh;
     }
-    .collapse{
-        height: 100vh;
-    }
     .logo-navbar{
         max-width: 300px;
         max-height: 50px;

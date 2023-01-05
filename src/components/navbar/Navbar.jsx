@@ -22,7 +22,6 @@ const Navbar = () => {
     window.addEventListener("scroll", changeBackground);
   });
 
-
   return (
     <>
       <div
