@@ -21,7 +21,7 @@ const NuestroServicio = () => {
   };
   return (
     <div id="nuestroservicio" className="container-fluid p-0 text-center">
-      <div className="funciones px-2">
+      <div className="funciones px-3">
         <img className="computadoras" src={computadoras} alt="logo" />
         <h2 className="title-styles">
           Modernizá tu mercado con nuestro servicio
@@ -39,7 +39,7 @@ const NuestroServicio = () => {
           cualquier lugar y desde cualquier dispositivo conectado a la red.
         </p>
       </div>
-      <div className="row mx-2 my-4 ">
+      <div className="row p-4 m-0">
         <div className="col-12 col-sm-4 px-0 columna-1">
           <img className="puntitos" src={puntitos_izq} alt="puntos" />
         </div>
@@ -50,10 +50,10 @@ const NuestroServicio = () => {
             alt="infografia"
           />
           <div className="hidden_child">
-            <h3 className="subtitle-infografia pt-0">
+            <h3 className="subtitle-infografia pt-2">
               Sistema de gestión para vos y tus clientes
             </h3>
-            <p className="text-infografia pt-1 px-5">
+            <p className="text-infografia pt-2">
               Tu propia App Fruit Software™ personalizable con tu marca.
             </p>
           </div>
@@ -65,14 +65,14 @@ const NuestroServicio = () => {
       <div className="fila-1">
         <img className="puntitos_recto" src={puntitos_recto} alt="puntos" />
       </div>
-      <div className="row infografia-container mx-2 pb-4">
+      <div className="row infografia-container p-4 m-0">
         <div className="col-12 col-sm-6 hidden_parent p-0">
           <img className="infografia" src={infografia2} alt="infografia" />
           <div className="hidden_child">
-            <h3 className="subtitle-infografia pt-4">
+            <h3 className="subtitle-infografia pt-2">
               Conectamos tu puesto mayorista con tus clientes
             </h3>
-            <p className="text-infografia pt-1 px-5">
+            <p className="text-infografia pt-2">
               Restaurantes, verdulerías, hospitales, empresas, hoteles,
               comedores, colegios, etc. A través de tu propia App Fruit
               Software™
@@ -85,10 +85,10 @@ const NuestroServicio = () => {
         <div className="col-12 col-sm-6 hidden_parent p-0">
           <img className="infografia" src={infografia3} alt="infografia" />
           <div className="hidden_child">
-            <h3 className="subtitle-infografia pt-3">
+            <h3 className="subtitle-infografia pt-2">
               Conectamos tu verdulería con tus clientes
             </h3>
-            <p className="text-infografia pt-1 px-5">
+            <p className="text-infografia pt-2">
               Consumidor final o bares a través de tu propia App Fruit Software™
               con un módulo de pago.
             </p>
