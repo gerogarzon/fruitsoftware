@@ -1,101 +1,98 @@
-.navbar-container{
-    position:absolute;
-    width:100%;
-    display: flex;
-    justify-content: center;
-    z-index:10;
+.navbar-container {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 10;
 }
 
-.navbar-active{
-    position:fixed;
-    width:100vw;
-    display: flex;
-    justify-content: center;
-    background-color:#ffff;  
-    z-index: 10;
+.navbar-active {
+  position: fixed;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: #ffff;
+  z-index: 10;
 }
 .navbar-active a {
-    color:grey!important;
+  color: grey !important;
 }
 
-.navbar-toggler{
-    border-color: #0000;
+.navbar-toggler {
+  border-color: #0000;
 }
-.logo-navbar{
+.logo-navbar {
+  max-width: 300px;
+  max-height: 70px;
+  object-fit: contain;
+}
+.nav-link:hover {
+  color: #f1d302 !important;
+}
+.navbar-active .nav-link:hover {
+  color: #93bedf !important;
+}
+.contacto {
+  max-width: 120px;
+}
+.contacto:hover {
+  color: #297373 !important;
+}
+.navbar-active .contacto {
+  border-color: #93bedf !important;
+}
+.navbar-active .contacto:hover {
+  background-color: #93bedf;
+  color: #fff !important;
+}
+.banner {
+  height: 100vh;
+  max-height: 810px;
+  width: 100%;
+  background-image: linear-gradient(
+      rgba(41, 115, 115, 0.8),
+      rgba(41, 115, 115, 0.8)
+    ),
+    url(../../assets/Principal.bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  /* background-attachment: fixed; */
+}
+.type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 10vh;
+  padding: 50px;
+  text-align: center;
+  width: 100%;
+  min-height: 410px;
+}
+.reel {
+  width: 33px;
+  height: 33px;
+  border-radius: 33px;
+}
+@media (max-width: 991px) {
+  .navbar-container {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+  }
+  .burger-menu {
+    position: relative;
+    background-color: #297373;
+    width: 100%;
+    padding: 10px;
+    z-index: 10;
+    height: 100vh;
+  }
+  .logo-navbar {
     max-width: 300px;
     max-height: 70px;
-    object-fit:contain;
-}
-.nav-link:hover{
-    color: #f1d302!important;
-}
-.navbar-active .nav-link:hover{
-    color:#93bedf!important;
-}
-.contacto{
-    max-width: 120px;
-}
-.contacto:hover{
-    color: #297373 !important;;
-}
-.navbar-active .contacto{
-    border-color: #93bedf!important;
-}
-.navbar-active .contacto:hover{
-    background-color:#93bedf;
-    color: #fff!important;
-}
-.banner{
-    height:100vh;
-    max-height: 810px;
-    width: 100%; 
-    background-image: linear-gradient(
-        rgba(41, 115, 115, 0.8) , 
-        rgba(41, 115, 115, 0.8)
-      ),url(../../assets/Principal.bg.jpg);
-    /* background-image: url(../../assets/Principal.bg.jpg);
-    background-color:#297373!important; */
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-}
-.type{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    top:10vh;
-    padding:50px;
-    text-align:center;
-    width:100%;
-    min-height:410px;
-}
-.reel{
-    width: 33px;
-    height: 33px;
-    border-radius:33px;
-}
-@media (max-width:991px){
-    .navbar-container{
-        position: absolute;
-        /* background-color:#297373; */
-        width:100%;
-        display: flex;
-        justify-content: center;
-        z-index:10;
-    }
-    .burger-menu{
-        position: relative;
-        background-color:#297373;
-        width:100%;
-        padding: 10px;
-        z-index:10;
-        height: 100vh;
-    }
-    .logo-navbar{
-        max-width: 300px;
-        max-height: 50px;
-        object-fit:contain;
-    }
-    
+    object-fit: contain;
+  }
 }

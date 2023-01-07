@@ -262,7 +262,7 @@ const NuestroServicio = () => {
             </p>
           </div>
 
-          <div className="col-5 col-sm-2 p-0 d-flex justify-content-center align-items-center">
+          <div className="col-5 col-sm-2 p-0 d-flex justify-content-center C">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 200 200"
@@ -288,8 +288,8 @@ const NuestroServicio = () => {
       </div>
 
       <div className="servicios">
-        <div className="row">
-          <div className="col-12 col-sm-4">
+        <div className="row servicios_fila">
+          <div className="col-12 col-sm-4 p-0">
             <svg
               className="servicios_svg"
               xmlns="http://www.w3.org/2000/svg"
@@ -324,7 +324,7 @@ const NuestroServicio = () => {
               <li className="list_items">Facturar los pedidos en caja</li>
             </ul>
           </div>
-          <div className="col-12 col-sm-4">
+          <div className="col-12 col-sm-4 p-0">
             <svg
               className="servicios_svg"
               xmlns="http://www.w3.org/2000/svg"
@@ -364,7 +364,7 @@ const NuestroServicio = () => {
               </li>
             </ul>
           </div>
-          <div className="col-12 col-sm-4">
+          <div className="col-12 col-sm-4 p-0">
             <svg
               className="servicios_svg"
               xmlns="http://www.w3.org/2000/svg"
@@ -406,7 +406,7 @@ const NuestroServicio = () => {
         <h2 className="subtitle-styles-2 pt-5 pb-4 m-0">
           PREGUNTAS FRECUENTES
         </h2>
-        <div className="d-flex justify-content-center pb-5">
+        <div className="d-flex justify-content-center pb-4">
           <div className="divider"></div>
         </div>
         <div className="row">

@@ -17,7 +17,7 @@ const Clientes = () => {
       </div>
       <div
         id="carouselExampleControls"
-        className="carousel carousel-dark slide p-5 my-5"
+        className="carousel carousel-dark slide p-5 mt-4"
         data-bs-ride="carousel"
       >
         <div className="carousel-inner">
@@ -41,7 +41,10 @@ const Clientes = () => {
               <img src={line} className="line-image" alt="line" />
             </div>
             <div className="text-center carousel-text-light p-1">
-            Desde que comenzamos a utilizar FruitSoftware el negocio ha mejorado enormemente y los clientes estan muy contentos. Recomendaría este software a cualquier otro empresario que busque una solución de gestión efectiva. 
+              Desde que comenzamos a utilizar FruitSoftware el negocio ha
+              mejorado enormemente y los clientes estan muy contentos.
+              Recomendaría este software a cualquier otro empresario que busque
+              una solución de gestión efectiva.
             </div>
             <div className="text-center carousel-text-bold p-1">
               Angel, Gerente, Arcoiris Frutas & Verduras
@@ -53,10 +56,13 @@ const Clientes = () => {
               <img src={line} className="line-image" alt="line" />
             </div>
             <div className="text-center carousel-text-light p-1">
-            Con Fruit Software ahorramos tiempo en tareas administrativas, tengo toda la información y resultados del negocio en mi celular y además mejoró la experiencia de compra de nuestros clientes al tener nuestra propia App de pedidos.
+              Con Fruit Software ahorramos tiempo en tareas administrativas,
+              tengo toda la información y resultados del negocio en mi celular y
+              además mejoró la experiencia de compra de nuestros clientes al
+              tener nuestra propia App de pedidos.
             </div>
             <div className="text-center carousel-text-bold p-1">
-            Damian Veliz, Co-Fundador, Veliz seleccion de Frutas & Hortalizas.
+              Damian Veliz, Co-Fundador, Veliz seleccion de Frutas & Hortalizas.
             </div>
           </div>
         </div>

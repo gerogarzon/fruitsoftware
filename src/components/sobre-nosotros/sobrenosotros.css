@@ -1,189 +1,204 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
 
-.nuestrosdatos-bg{
-    background-image:url(../../assets/nuestrosdatos.png);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+.nuestrosdatos-bg {
+  background-image: url(../../assets/nuestrosdatos.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
-.sobrenosotros-title-styles{
-    color: #93bedf;
-    font-family: 'Montserrat', sans-serif;
-    font-style: bold;
-    font-size:20px;
-    letter-spacing: 2px;
+.sobrenosotros-title-styles {
+  color: #93bedf;
+  font-family: "Montserrat", sans-serif;
+  font-style: bold;
+  font-size: 20px;
+  letter-spacing: 2px;
 }
-.sobrenosotros-subtitle-styles{
-    color:#297373;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size:30px;
-    line-height:47px;
+.sobrenosotros-subtitle-styles {
+  color: #297373;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 47px;
 }
-.sobrenosotros-number-styles{
-    color: #F1D302;
-    font-size:75px;
-    font-weight: 700;
-    line-height:110px;
+.sobrenosotros-number-styles {
+  color: #f1d302;
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 110px;
 }
-.sobrenosotros-text-styles{
-    font-family: 'Montserrat', sans-serif; 
-    font-size:25px;
-    font-weight:400;
-    line-height:37px;
-    color:#ffffff; 
+.sobrenosotros-text-styles {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 37px;
+  color: #ffffff;
 }
-.sector{
-    background-image:url(../../assets/funciones.png);
+.sector {
+  background-image: url(../../assets/funciones.png);
 }
-.sector-image{
-    max-width:200px;
-    max-height:200px;
+.sector-image {
+  max-width: 200px;
+  max-height: 200px;
 }
-.elipse{
-    background-color: #ffffff;
-    width: 250px;
-    height:250px;
-    border-radius:250px;
-    border: 2px solid #707070;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+.elipse {
+  background-color: #ffffff;
+  width: 250px;
+  height: 250px;
+  border-radius: 250px;
+  border: 2px solid #707070;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 @media (hover: hover) {
-    .elipse:hover{
-        border: 2px solid #df8600;
-    }
+  .elipse:hover {
+    border: 2px solid #df8600;
   }
+}
 
-.mercados{
-    font-weight: 700;
-    font-size:22px;
-    line-height:31px;
-    color:#297373;
-    max-width:276px;
+.mercados {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 31px;
+  color: #297373;
+  max-width: 276px;
 }
 @media (hover: hover) {
-    .elipse:hover + .mercados{
-        opacity: 0.7;
-    }
+  .elipse:hover + .mercados {
+    opacity: 0.7;
   }
+}
 
-.sobrenosotros{
-    background-image: url(../../assets/sobrenosotros.png);
-    background-size: 100vw 100%;
-    padding: 70px 30px;
+.sobrenosotros {
+  /* background-image: url(../../assets/sobrenosotros.png); */
+  /* background-size: 100vw 100%; */
+  padding: 70px 30px;
+
+  background-image: linear-gradient(
+      rgba(41, 115, 115, 0.8),
+      rgba(41, 115, 115, 0.8)
+    ),
+    url(../../assets/servicios-bg.jpg);
+  background-size: fill;
+  background-position: center center;
 }
-.subtitle_sobrenosotros{
-    color: #ffffff;
-    font-family: 'Raleway', sans-serif;
-    font-style: bold;
-    font-size:25px;
-    line-height: 30px;
+.subtitle_sobrenosotros {
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-style: bold;
+  font-size: 25px;
+  line-height: 30px;
 }
-.text_sobrenosotros{
-    font-family: 'Montserrat', sans-serif;
-    color: #ffffff;
-    font-size:17px;
-    font-weight: normal;
-    line-height:21px;
+.text_sobrenosotros {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: normal;
+  line-height: 21px;
 }
-.parent_hidden{
-    min-height: 410px;
+.parent_hidden {
+  min-height: 410px;
 }
-.child_hidden{
-    display:none;
-    color: #707070 !important;
-    font-size: 15px;
+.child_hidden {
+  display: none;
+  color: #707070 !important;
+  font-size: 15px;
 }
 @media (hover: hover) {
-    .parent_hidden:hover .child_hidden{
-        display:block;
-    }
-    .parent_hidden:hover .mercados{
-        color:#df8600;  
-    }
+  .parent_hidden:hover .child_hidden {
+    display: block;
   }
+  .parent_hidden:hover .mercados {
+    color: #df8600;
+  }
+}
 
 @media (max-width: 768px) {
-    .sobrenosotros-title-styles{
-        color: #93bedf;
-        font-family: 'Montserrat', sans-serif;
-        font-style: bold;
-        font-size:20px;
-        letter-spacing: 0px;
-    }
-    .sobrenosotros-subtitle-styles{
-        color:#297373;
-        font-family: 'Raleway', sans-serif;
-        font-weight: 700;
-        font-size:20px;
-        line-height:35px;
-    }
-    .sobrenosotros{
-        background-size: fill; 
-    }
-    .subtitle_sobrenosotros{
-        color: #ffffff;
-        font-family: 'Raleway', sans-serif;
-        font-style: bold;
-        font-size:20px;
-        line-height: 25px;
-    }
-    .text_sobrenosotros{
-        font-family: 'Montserrat', sans-serif;
-        color: #ffffff;
-        font-size:15px;
-        font-weight: normal;
-        line-height:15px;
-    }
-    .elipse{
-        background-color: #ffffff;
-        width: 250px;
-        height:250px;
-        border-radius:250px;
-        border: 2px solid #707070;
-        display:flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .sector-image{
-        max-width:190px;
-        max-height:190px;
-    }
-    .sobrenosotros-number-styles{
-        color: #F1D302;
-        font-size:60px;
-        font-weight: 700;
-        line-height:110px;
-    }
-    .nuestrosdatos-bg{
-        background-image:url(../../assets/nuestrosdatos.png);
-        background-position: center;
-        background-size: cover;
-        background-attachment: none!important;
-    }
-    .elipse{
-        background-color: #ffffff;
-        width: 200px;
-        height:200px;
-        border-radius:200px;
-        border: 2px solid #707070;
-        display:flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .sector-image{
-        max-width:150px;
-        max-height:150px;
-    }
-    .child_hidden{
-        display:block;
-        color: #707070 !important;
-        font-size: 15px;
-    }
-    .sector{
-        padding: 10px 30px !important;
-    }
+  .nuestrosdatos-bg {
+    background-image: url(../../assets/nuestrosdatos.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: local;
+  }
+  .divider_parent {
+    display: none !important;
+  }
+  .sobrenosotros-title-styles {
+    color: #93bedf;
+    font-family: "Montserrat", sans-serif;
+    font-style: bold;
+    font-size: 20px;
+    letter-spacing: 0px;
+  }
+  .sobrenosotros-subtitle-styles {
+    color: #297373;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .sobrenosotros {
+    background-size: auto;
+    padding: 30px 10px;
+  }
+  .subtitle_sobrenosotros {
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-style: bold;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .text_sobrenosotros {
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 20px;
+    /* text-align: justify; */
+    padding: 0px 10px;
+  }
+  .elipse {
+    background-color: #ffffff;
+    width: 250px;
+    height: 250px;
+    border-radius: 250px;
+    border: 2px solid #707070;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sector-image {
+    max-width: 190px;
+    max-height: 190px;
+  }
+  .sobrenosotros-number-styles {
+    color: #f1d302;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 110px;
+  }
+
+  .elipse {
+    background-color: #ffffff;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    border: 2px solid #707070;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sector-image {
+    max-width: 150px;
+    max-height: 150px;
+  }
+  .child_hidden {
+    display: block;
+    color: #707070 !important;
+    font-size: 15px;
+  }
+  .sector {
+    padding: 10px 30px !important;
+  }
 }

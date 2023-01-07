@@ -25,7 +25,7 @@ const Navbar = () => {
   return (
     <>
       <div
-        id="burger-menu"
+        // id="burger-menu"
         className={navbar ? "navbar-active" : "navbar-container"}
       >
         <nav
@@ -35,7 +35,9 @@ const Navbar = () => {
               : "navbar navbar-dark navbar-expand-lg p-0 pb-3"
           }
         >
-          <div className={navbar ? "container-fluid p-0" : "container-fluid p-0 "}>
+          <div
+            className={navbar ? "container-fluid p-0" : "container-fluid p-0 "}
+          >
             <a className="navbar-brand text-white m-0 py-2 mx-4 " href="/">
               <img
                 className="logo-navbar"
@@ -54,7 +56,14 @@ const Navbar = () => {
             >
               <span className="navbar-toggler-icon"></span>
             </button>
-            <div className={navbar ? "collapse navbar-collapse px-4" : "collapse navbar-collapse px-4 burger-menu"} id="navbarNavAltMarkup">
+            <div
+              className={
+                navbar
+                  ? "collapse navbar-collapse px-4"
+                  : "collapse navbar-collapse px-4 burger-menu"
+              }
+              id="navbarNavAltMarkup"
+            >
               <div className="navbar-nav">
                 <a
                   className="nav-link active text-white"

@@ -1,17 +1,17 @@
-.galeria{
-    min-height: 400px;
+.galeria {
+  min-height: 400px;
 }
-.galeria-images{
-    width:600px;
-    height:400px;
-    object-fit: fill;
+.galeria-images {
+  width: 600px;
+  height: 400px;
+  object-fit: fill;
 }
-.galeria-subtitle-styles{
-    color: #93bedf;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size:20px;
-    line-height:24px;
-    margin:30px;
-    padding:30px;
+.galeria-subtitle-styles {
+  color: #93bedf;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 30px;
+  padding: 30px;
 }
