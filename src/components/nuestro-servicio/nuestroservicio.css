@@ -189,7 +189,7 @@
   background-position: center center;
   padding: 50px 50px;
 }
-.servicio_col{
+.servicio_col {
   padding: 10px;
 }
 .servicios_svg {
@@ -211,7 +211,7 @@
   background-position: center center;
 }
 .preguntas1 {
-  max-width: 500px;
+  max-width: 550px;
   object-fit: fill;
 }
 .preguntas2 {
@@ -224,7 +224,7 @@
   }
   .preguntas_parent:hover .preguntas2 {
     display: block;
-    max-width: 500px;
+    max-width: 550px;
   }
 }
 
@@ -350,7 +350,7 @@
     max-width: 100%;
     margin: 0;
   }
-  .servicio_col{
+  .servicio_col {
     padding: 0px;
   }
   .preguntas {

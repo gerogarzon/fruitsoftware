@@ -410,11 +410,11 @@ const NuestroServicio = () => {
           <div className="divider"></div>
         </div>
         <div className="row">
-          <div className="preguntas_parent col-12 col-sm-5">
+          <div className="preguntas_parent col-12 col-sm-4">
             <img className="preguntas1" src={preguntas1} alt="logo" />
             <img className="preguntas2" src={preguntas2} alt="logo" />
           </div>
-          <div className="col-12 col-sm-7">
+          <div className="col-12 col-sm-8">
             <div className="preguntas_title pb-2">
               ¿Si tengo una verdulería, puedo tener mi propia App con mi logo
               para mis clientes?
