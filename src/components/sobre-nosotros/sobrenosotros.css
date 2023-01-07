@@ -201,4 +201,10 @@
   .sector {
     padding: 10px 30px !important;
   }
+  .mercados{
+    color:#df8600;
+  }
+  .elipse{
+    border: 2px solid #df8600;
+  }
 }

@@ -189,6 +189,9 @@
   background-position: center center;
   padding: 50px 50px;
 }
+.servicio_col{
+  padding: 10px;
+}
 .servicios_svg {
   max-height: 150px;
 }
@@ -346,6 +349,9 @@
   .servicios_fila {
     max-width: 100%;
     margin: 0;
+  }
+  .servicio_col{
+    padding: 0px;
   }
   .preguntas {
     padding: 0px 30px;

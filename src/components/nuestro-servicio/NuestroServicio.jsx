@@ -289,7 +289,7 @@ const NuestroServicio = () => {
 
       <div className="servicios">
         <div className="row servicios_fila">
-          <div className="col-12 col-sm-4 p-0">
+          <div className="col-12 col-sm-4 servicio_col">
             <svg
               className="servicios_svg"
               xmlns="http://www.w3.org/2000/svg"
@@ -324,7 +324,7 @@ const NuestroServicio = () => {
               <li className="list_items">Facturar los pedidos en caja</li>
             </ul>
           </div>
-          <div className="col-12 col-sm-4 p-0">
+          <div className="col-12 col-sm-4 servicio_col">
             <svg
               className="servicios_svg"
               xmlns="http://www.w3.org/2000/svg"
@@ -364,7 +364,7 @@ const NuestroServicio = () => {
               </li>
             </ul>
           </div>
-          <div className="col-12 col-sm-4 p-0">
+          <div className="col-12 col-sm-4 servicio_col">
             <svg
               className="servicios_svg"
               xmlns="http://www.w3.org/2000/svg"
