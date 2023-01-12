@@ -1,3 +1,6 @@
+#clientes{
+  min-height:550px;
+}
 .clientes-subtitle-styles {
   color: #93bedf;
   font-family: "Montserrat", sans-serif;
@@ -26,6 +29,9 @@
   font-weight: bold;
 }
 @media (max-width: 768px) {
+  #clientes{
+    min-height:710px;
+  }
   .clientes-subtitle-styles {
     color: #93bedf;
     font-family: "Montserrat", sans-serif;
