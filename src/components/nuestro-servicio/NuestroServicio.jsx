@@ -10,7 +10,7 @@ import computadoras from "../../assets/computadoras.png";
 import preguntas1 from "../../assets/preguntas1.png";
 import preguntas2 from "../../assets/preguntas2.png";
 import see from "../../assets/see.png";
-import feature from "../../assets/feature.jpeg";
+import feature from "../../assets/feature.jpg";
 
 import "./nuestroservicio.css";
 
@@ -452,9 +452,9 @@ const NuestroServicio = () => {
           </div>
         </div>
       </div> */}
-      {/* <div className="feature">
+      <div className="feature">
         <img className="featureImage" src={feature} alt="pedidos"/>
-      </div> */}
+      </div>
     </div>
   );
 };
