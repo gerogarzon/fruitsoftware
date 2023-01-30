@@ -3,11 +3,13 @@
   margin-bottom: 50px;
 }
 .footer-title-styles {
+  font-size: 30px;
   color: #f1d302;
   margin-bottom: 20px;
   z-index: 100;
 }
 .footer-subtitle-styles {
+  font-size: 25px;
   color: #ffffff;
   z-index: 100;
 }

@@ -1,16 +1,20 @@
 import React, { useState, useEffect } from "react";
 import logo from "../../assets/logo.png";
 import logo2 from "../../assets/logoscroll.png";
-import reel from "../../assets/reel.png";
+// import reel from "../../assets/reel.png";
 import Typewriter from "typewriter-effect";
 
 import "./navbar.css";
 
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
-
+  let deviceHeight = window.screen.height;
+  console.log("1", deviceHeight)
+  let num = -90;
+  deviceHeight += num;
+  console.log("2", deviceHeight)
   const changeBackground = () => {
-    if (window.scrollY >= 650) {
+    if (window.scrollY >= deviceHeight) {
       setNavbar(true);
     } else {
       setNavbar(false);
@@ -119,15 +123,15 @@ const Navbar = () => {
             }}
           />
         </div>
-        <div className="row align-content-center justify-content-center my-5 py-5 ">
+        {/* <div className="row align-content-center justify-content-center my-5 py-5 ">
           <div className="col d-flex justify-content-center">
-            {/* <button className="btn btn-outline-warning contacto text-white m-3"><a className="vermas" href="#nuestroservicio">VER MAS</a></button> */}
+            <button className="btn btn-outline-warning contacto text-white m-3"><a className="vermas" href="#nuestroservicio">VER MAS</a></button>
             <button className="btn m-2">
               <img src={reel} className="reel mx-1" alt="reel" />
               <span className="text-white">VER NUESTRO REEL</span>
             </button>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );

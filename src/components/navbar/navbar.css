@@ -15,7 +15,7 @@
   z-index: 10;
 }
 .navbar-active a {
-  color: grey !important;
+  color: #000 !important;
 }
 
 .navbar-toggler {
@@ -23,8 +23,11 @@
 }
 .logo-navbar {
   max-width: 300px;
-  max-height: 70px;
+  max-height: 90px;
   object-fit: contain;
+}
+.nav-link{
+  font-size:18px;
 }
 .nav-link:hover {
   color: #f1d302 !important;
@@ -47,7 +50,7 @@
 }
 .banner {
   height: 100vh;
-  max-height: 810px;
+  /* max-height: 100vh - 30px; */
   width: 100%;
   background-image: linear-gradient(
       rgba(41, 115, 115, 0.8),

@@ -1,3 +1,13 @@
+/* .feature{
+  width:100%;
+}
+.featureImage{
+  max-height:1000px;
+  width: fit-content;
+  margin-top: -200px;
+  position: relative;
+  z-index: -100;
+} */
 .divider {
   width: 280px;
   height: 1px;
@@ -6,7 +16,7 @@
 .title-styles {
   color: #297373;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 35px;
   line-height: 47px;
   font-family: "Raleway", sans-serif;
 }
@@ -14,7 +24,7 @@
   color: #93bedf;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 24px;
 }
 .subtitle-styles-2 {
@@ -25,7 +35,7 @@
   letter-spacing: 3px;
 }
 .text-styles {
-  color: #707070;
+  color: #000;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   line-height: 20px;
@@ -39,7 +49,7 @@
   gap: 35px;
 }
 .card {
-  border: 2px solid #707070;
+  border: 2px solid #000;
   margin: 20px;
   padding: 30px;
   width: 340px;
@@ -81,15 +91,15 @@
   color: #00cec3;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: 17px;
+  font-size: 20px;
   line-height: 17px;
 }
 .text-infografia {
-  color: #707070;
+  color: #000;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   line-height: 20px;
-  font-size: 15px;
+  font-size: 18px;
   padding: 0 50px;
 }
 .infografia1 {
@@ -122,7 +132,7 @@
   padding-left: 80px;
   padding-top: 80px;
   background-image: url(../../assets/personaliza.jpg);
-  background-size: contain;
+  background-size:contain;
   min-height: 750px;
 }
 .personaliza2 {
@@ -197,10 +207,12 @@
 }
 .servicios_titles {
   color: #f0d200;
-  font-size: 18px;
+  font-size: 25px;
   margin-bottom: 30px;
+  min-height: 55px;
 }
 .list_items {
+  font-size: 20px;
   color: #fff;
   text-align: justify;
 }

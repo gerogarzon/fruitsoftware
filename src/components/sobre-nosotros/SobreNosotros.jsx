@@ -10,6 +10,17 @@ import minorista from "../../assets/minorista.png";
 const SobreNosotros = () => {
   const [focus, setFocus] = React.useState(false);
 
+
+  let number = 11520;
+let startDate = new Date();
+
+function increaseBy15() {
+  let currentDate = new Date();
+  let diffInDays = (currentDate - startDate) / (1000 * 60 * 60 * 24);
+  number += 15 * diffInDays;
+}
+
+setInterval(increaseBy15, 1000);
   return (
     <div id="sobrenosotros">
       <div className="container-fluid text-center sobrenosotros">
@@ -21,14 +32,14 @@ const SobreNosotros = () => {
           Ayudar a los pequeños y grandes mercados frutihortícolas a lograr una
           gestión eficaz mediante el uso innovador de la tecnología.
         </h3>
-        <h5 className="text_sobrenosotros pt-3">
+        {/* <h5 className="text_sobrenosotros pt-3">
           Un equipo que desarrolló un sistema y una App personalizada con tu
           marca para que tus clientes carguen sus pedidos y que debido a la
           cantidad de interesados por esta nueva metología de trabajo, decidimos
           fundar Fruit Software™ y poner a disposición de todo mayorista o
           minorista frutihortícola esta tecnología para que sean más eficientes
           y además mejorar la experiencia de compra de sus clientes.
-        </h5>
+        </h5> */}
       </div>
 
       <div className="container-fluid sector text-center py-5 px-2">
@@ -106,12 +117,12 @@ const SobreNosotros = () => {
               </CountUp>
             </div>
             <div className="row sobrenosotros-text-styles d-flex justify-content-center align-content-center">
-              Años desde <br></br> nuestra fundación
+              Años de <br></br> desarrollo
             </div>
           </div>
           <div className="col-lg-3 col-xs-12 p-3">
             <div className="row sobrenosotros-number-styles d-flex justify-content-center align-content-center">
-              <CountUp start={focus ? 0 : null} end={27} duration={2} z>
+              <CountUp start={focus ? 0 : null} end={4} duration={2} z>
                 {({ countUpRef }) => (
                   <VisibilitySensor
                     onChange={(isVisible) => {
@@ -124,7 +135,32 @@ const SobreNosotros = () => {
                       ref={countUpRef}
                       className="sobrenosotros-number-styles"
                     >
-                      27
+                      4
+                    </h1>
+                  </VisibilitySensor>
+                )}
+              </CountUp>
+            </div>
+            <div className="row sobrenosotros-text-styles d-flex justify-content-center align-content-center">
+              Meses desde <br></br> nuestro inicio
+            </div>
+          </div>
+          <div className="col-lg-3 col-xs-12 p-3">
+            <div className="row sobrenosotros-number-styles d-flex justify-content-center align-content-center">
+              <CountUp start={focus ? 0 : null} end={5} duration={2} z>
+                {({ countUpRef }) => (
+                  <VisibilitySensor
+                    onChange={(isVisible) => {
+                      if (isVisible) {
+                        setFocus(true);
+                      }
+                    }}
+                  >
+                    <h1
+                      ref={countUpRef}
+                      className="sobrenosotros-number-styles"
+                    >
+                      5
                     </h1>
                   </VisibilitySensor>
                 )}
@@ -136,7 +172,7 @@ const SobreNosotros = () => {
           </div>
           <div className="col-lg-3 col-xs-12 p-3">
             <div className="row sobrenosotros-number-styles d-flex justify-content-center align-content-center">
-              <CountUp start={focus ? 0 : null} end={105} duration={2} z>
+              <CountUp start={focus ? 0 : null} end={number} duration={2} z>
                 {({ countUpRef }) => (
                   <VisibilitySensor
                     onChange={(isVisible) => {
@@ -149,17 +185,17 @@ const SobreNosotros = () => {
                       ref={countUpRef}
                       className="sobrenosotros-number-styles"
                     >
-                      105
+                      {number}
                     </h1>
                   </VisibilitySensor>
                 )}
               </CountUp>
             </div>
             <div className="row sobrenosotros-text-styles d-flex justify-content-center align-content-center">
-              Puestos utilizando <br></br> nuestro sistema
+              Pedidos <br></br> entregados
             </div>
           </div>
-          <div className="col-lg-3 col-xs-12 p-3">
+          {/* <div className="col-lg-3 col-xs-12 p-3">
             <div className="row sobrenosotros-number-styles d-flex justify-content-center align-content-center">
               <CountUp start={focus ? 0 : null} end={30251} duration={2} z>
                 {({ countUpRef }) => (
@@ -183,7 +219,7 @@ const SobreNosotros = () => {
             <div className="row sobrenosotros-text-styles d-flex justify-content-center align-content-center">
               Tazas de café<br></br> tomadas :)
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

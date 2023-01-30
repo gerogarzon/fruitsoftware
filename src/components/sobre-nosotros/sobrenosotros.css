@@ -74,6 +74,7 @@
   background-image: url(../../assets/sobrenosotros.png);
   background-size: cover;
   background-position: center center;
+  height: 450px;
 }
 .subtitle_sobrenosotros {
   color: #ffffff;
@@ -139,6 +140,7 @@
       url(../../assets/servicios-bg.jpg);
     background-size: fill;
     background-position: center center;
+    height: fit-content;
   }
   .subtitle_sobrenosotros {
     color: #ffffff;
