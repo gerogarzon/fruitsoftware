@@ -1,8 +1,8 @@
-.feature{
-  width:100%;
+.feature {
+  width: 100%;
 }
-.featureImage{
-  max-height:fit-content;
+.featureImage {
+  max-height: fit-content;
   width: fit-content;
   margin-top: -200px;
   position: relative;
@@ -85,7 +85,7 @@
   max-height: 272px;
 }
 .puntitos {
-  max-width: 400px;
+  max-width: 450px;
 }
 .subtitle-infografia {
   color: #00cec3;
@@ -132,7 +132,7 @@
   padding-left: 80px;
   padding-top: 80px;
   background-image: url(../../assets/personaliza.jpg);
-  background-size:contain;
+  background-size: contain;
   min-height: 750px;
 }
 .personaliza2 {
@@ -391,7 +391,7 @@
     font-family: "Montserrat", sans-serif;
     text-align: justify;
   }
-  .feature{
+  .feature {
     display: none;
   }
 }

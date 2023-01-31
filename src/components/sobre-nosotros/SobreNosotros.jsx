@@ -29,8 +29,8 @@ setInterval(increaseBy15, 1000);
           <div className="divider"></div>
         </div>
         <h3 className="subtitle_sobrenosotros py-5 ">
-          Ayudar a los pequeños y grandes mercados frutihortícolas a lograr una
-          gestión eficaz mediante el uso innovador de la tecnología.
+          Ayudar a los pequeños y grandes puesteros frutihortícolas a lograr una
+          gestión eficiente mediante el uso de la tecnología.
         </h3>
         {/* <h5 className="text_sobrenosotros pt-3">
           Un equipo que desarrolló un sistema y una App personalizada con tu

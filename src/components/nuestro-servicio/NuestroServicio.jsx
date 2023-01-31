@@ -24,18 +24,17 @@ const NuestroServicio = () => {
     <div id="nuestroservicio" className="container-fluid p-0 text-center">
       <div className="funciones px-3">
         <img className="computadoras" src={computadoras} alt="logo" />
-        <h2 className="title-styles">
+        <h2 className="title-styles mb-3">
           Modernizá tu empresa con nuestro servicio
         </h2>
-        <h3 className="subtitle-styles pt-1">
+        {/* <h3 className="subtitle-styles pt-1">
           Adiós a la gestión con papel y lápiz. Nosotros te traemos la Solución
-        </h3>
+        </h3> */}
         <p className="text-styles pt-1 funciones_text">
           Somos Fruit Software™, una empresa que brinda un software de gestión
           moderno y sencillo, hecho a medida para el mercado mayorista y
-          minorista frutihortícola, con acceso a una App Móvil para
-          recibir los pedidos y mejorar la experiencia de compra de tus
-          clientes. 
+          minorista frutihortícola, con acceso a una App Móvil para recibir los
+          pedidos y mejorar la experiencia de compra de tus clientes.
         </p>
       </div>
       <div className="row p-4 m-0">
@@ -50,10 +49,11 @@ const NuestroServicio = () => {
           />
           <div className="hidden_child">
             <h3 className="subtitle-infografia pt-2">
-              Software de gestión + App movil 
+              Software de gestión + App movil
             </h3>
             <p className="text-infografia pt-2 px-0">
-              Un software de gestion para tu empresa + Tu propia App Fruit Software™ personalizable con tu marca.
+              Un software de gestion para tu empresa + Tu propia App Fruit
+              Software™ personalizable con tu marca.
             </p>
           </div>
         </div>
@@ -64,10 +64,10 @@ const NuestroServicio = () => {
       <div className="fila-1">
         <img className="puntitos_recto" src={puntitos_recto} alt="puntos" />
       </div>
-      <div className="row infografia-container p-4 m-0">
+      <div className="row infografia-container px-4 m-0">
         <div className="col-12 col-sm-6 hidden_parent px-0 py-4">
           <img className="infografia" src={infografia2} alt="infografia" />
-          <div className="hidden_child">
+          <div className="hidden_child mt-4">
             <h3 className="subtitle-infografia pt-2">
               Conectamos tu puesto mayorista con tus clientes
             </h3>
@@ -83,7 +83,7 @@ const NuestroServicio = () => {
         </div>
         <div className="col-12 col-sm-6 hidden_parent px-0 py-4">
           <img className="infografia" src={infografia3} alt="infografia" />
-          <div className="hidden_child">
+          <div className="hidden_child mt-4">
             <h3 className="subtitle-infografia pt-2">
               Conectamos tu verdulería con tus clientes
             </h3>
@@ -124,8 +124,6 @@ const NuestroServicio = () => {
           <img src={see} className="eye" alt="eye" />
         </button>
       </div>
-
-      
 
       <div className="servicios">
         <div className="row servicios_fila">
@@ -453,7 +451,7 @@ const NuestroServicio = () => {
         </div>
       </div> */}
       <div className="feature">
-        <img className="featureImage" src={feature} alt="pedidos"/>
+        <img className="featureImage" src={feature} alt="pedidos" />
       </div>
     </div>
   );
