@@ -190,10 +190,10 @@ const NuestroServicio = () => {
                 Mejorar tu atención al cliente presencial cargando el pedido de
                 tu cliente desde un celular o tablet
               </li>
-              <li className="list_items">Modificar precios</li>
               <li className="list_items">
-                Activar o desactivar artículos y clientes
+                Modificar precios, activar o desactivar artículos
               </li>
+
               <li className="list_items">
                 Ver las cuentas corrientes de clientes y proveedores
               </li>

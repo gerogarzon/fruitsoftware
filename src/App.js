@@ -20,7 +20,7 @@ function App() {
       <Galeria/>
       <Footer/>
       <div className="flotante">
-        <a href="https://api.whatsapp.com/send?phone=+5493815065129&text=Hola, estoy interesado, me gustaria tener mas informacion, porfavor de contactarme!"><img style={{width:"50px", height:"50px"}}src={whatsapp} alt="whatsapp-logo"/></a>
+        <a href="https://api.whatsapp.com/send?phone=+5493815065129&text=Hola! Me interesa conocer más sobre tus servicios. Por favor, bríndame más información sobre cómo pueden ayudarme."><img style={{width:"50px", height:"50px"}}src={whatsapp} alt="whatsapp-logo"/></a>
      </div>
     </div>
   );
